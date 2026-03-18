@@ -46,7 +46,7 @@ function withAlpha(hex: string, alpha: number): string {
 
 function sameBrandAltColor(): string {
   // Same-brand comparisons: force a totally different color for Bar B (classic contrast).
-  return colors.accent.orange;
+  return colors.accent.blue;
 }
 
 /* ═══════════════════════════════════════════════════════════
