@@ -36,6 +36,14 @@ type ComparisonNavigationProp = StackNavigationProp<RootStackParamList, 'Compari
 
 const HIT_SLOP_10 = { top: 10, bottom: 10, left: 10, right: 10 } as const;
 
+function withAlpha(hex: string, alpha: number): string {
+  // Supports #RRGGBB. Falls back to original if not a 6-digit hex.
+  if (!hex || hex[0] !== '#' || hex.length !== 7) return hex;
+  const a = Math.max(0, Math.min(1, alpha));
+  const aa = Math.round(a * 255).toString(16).padStart(2, '0').toUpperCase();
+  return `${hex}${aa}`; // #RRGGBBAA
+}
+
 /* ═══════════════════════════════════════════════════════════
    Component
    ═══════════════════════════════════════════════════════════ */
@@ -273,7 +281,10 @@ export function ComparisonScreen() {
             const bmDiffSign = bmDiff >= 0 ? '+' : '';
             const bmDiffColor = bmDiff >= 0 ? colors.accent.green : colors.accent.orange;
             const aColor = getBrandColor(partA.brand);
-            const bColor = getBrandColor(partB.brand);
+            const sameBrand = partA.brand === partB.brand;
+            // If both are the same brand, make B visually distinct while staying \"on-brand\"
+            const bColor = sameBrand ? withAlpha(aColor, 0.55) : getBrandColor(partB.brand);
+            const bOutline = sameBrand ? aColor : 'transparent';
 
             return (
               <View key={bm.label} style={styles.bmGroup}>
@@ -311,6 +322,8 @@ export function ComparisonScreen() {
                       styles.bmBar,
                       {
                         backgroundColor: bColor,
+                        borderWidth: sameBrand ? 1 : 0,
+                        borderColor: bOutline,
                         width: barAnim.interpolate({
                           inputRange: [0, 1],
                           outputRange: ['0%', `${pctB * 100}%`],
