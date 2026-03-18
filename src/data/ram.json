@@ -1,0 +1,662 @@
+[
+  {
+    "id": "ram-gskill-ddr4-3200-8gb",
+    "name": "G.Skill Ripjaws V 8GB DDR4-3200 CL16",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 22,
+    "releaseDate": "2019-01-01T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 860,
+    "performanceScore": 40,
+    "popularity": 78,
+    "specs": {
+      "type": "DDR4",
+      "speed": 3200,
+      "casLatency": 16,
+      "capacity": 8,
+      "channels": 1,
+      "voltage": 1.35,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Ripjaws V",
+      "timings": "16-18-18-38",
+      "releaseYear": 2019,
+      "kitCapacity": "8GB (1x8GB)",
+      "xmpProfile": "XMP 2.0",
+      "heightMm": 42
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2019-01-01T00:00:00.000Z", "price": 40, "retailer": "MSRP" },
+      { "date": "2021-01-01T00:00:00.000Z", "price": 32, "retailer": "Amazon" },
+      { "date": "2023-01-01T00:00:00.000Z", "price": 22, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-corsair-ddr4-2133-16gb",
+    "name": "Corsair Vengeance LPX 16GB DDR4-2133 CL15",
+    "brand": "Corsair",
+    "type": "RAM",
+    "price": 28,
+    "releaseDate": "2015-01-01T00:00:00.000Z",
+    "rating": 4.3,
+    "reviewCount": 1200,
+    "performanceScore": 28,
+    "popularity": 65,
+    "specs": {
+      "type": "DDR4",
+      "speed": 2133,
+      "casLatency": 15,
+      "capacity": 16,
+      "channels": 2,
+      "voltage": 1.20,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Vengeance LPX",
+      "timings": "15-15-15-36",
+      "releaseYear": 2015,
+      "kitCapacity": "16GB (2x8GB)",
+      "xmpProfile": "XMP 2.0",
+      "heightMm": 31,
+      "note": "Entry-level DDR4 — JEDEC baseline speed"
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2015-01-01T00:00:00.000Z", "price": 80, "retailer": "MSRP" },
+      { "date": "2018-01-01T00:00:00.000Z", "price": 60, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 28, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-kingston-ddr4-2666-16gb",
+    "name": "Kingston ValueRAM 16GB DDR4-2666 CL19",
+    "brand": "Kingston",
+    "type": "RAM",
+    "price": 32,
+    "releaseDate": "2018-01-01T00:00:00.000Z",
+    "rating": 4.2,
+    "reviewCount": 680,
+    "performanceScore": 32,
+    "popularity": 64,
+    "specs": {
+      "type": "DDR4",
+      "speed": 2666,
+      "casLatency": 19,
+      "capacity": 16,
+      "channels": 2,
+      "voltage": 1.20,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "ValueRAM",
+      "timings": "19-19-19-43",
+      "releaseYear": 2018,
+      "kitCapacity": "16GB (2x8GB)",
+      "xmpProfile": "None",
+      "heightMm": 31,
+      "note": "ECC Unbuffered compatible variants available"
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2018-01-01T00:00:00.000Z", "price": 75, "retailer": "MSRP" },
+      { "date": "2020-01-01T00:00:00.000Z", "price": 55, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 32, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-gskill-ddr4-3000-16gb",
+    "name": "G.Skill Aegis 16GB DDR4-3000 CL16",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 35,
+    "releaseDate": "2019-01-01T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 440,
+    "performanceScore": 36,
+    "popularity": 68,
+    "specs": {
+      "type": "DDR4",
+      "speed": 3000,
+      "casLatency": 16,
+      "capacity": 16,
+      "channels": 2,
+      "voltage": 1.35,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Aegis",
+      "timings": "16-18-18-38",
+      "releaseYear": 2019,
+      "kitCapacity": "16GB (2x8GB)",
+      "xmpProfile": "XMP 2.0",
+      "heightMm": 33
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2019-01-01T00:00:00.000Z", "price": 65, "retailer": "MSRP" },
+      { "date": "2021-01-01T00:00:00.000Z", "price": 48, "retailer": "Amazon" },
+      { "date": "2023-01-01T00:00:00.000Z", "price": 35, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-corsair-ddr4-3600-16gb",
+    "name": "Corsair Vengeance RGB Pro 16GB DDR4-3600 CL18",
+    "brand": "Corsair",
+    "type": "RAM",
+    "price": 55,
+    "releaseDate": "2020-01-01T00:00:00.000Z",
+    "rating": 4.7,
+    "reviewCount": 640,
+    "performanceScore": 64,
+    "popularity": 84,
+    "specs": {
+      "type": "DDR4",
+      "speed": 3600,
+      "casLatency": 18,
+      "capacity": 16,
+      "channels": 2,
+      "voltage": 1.35,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Vengeance RGB Pro",
+      "timings": "18-22-22-42",
+      "releaseYear": 2020,
+      "kitCapacity": "16GB (2x8GB)",
+      "xmpProfile": "XMP 2.0",
+      "heightMm": 51,
+      "rgb": true
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2020-01-01T00:00:00.000Z", "price": 80, "retailer": "MSRP" },
+      { "date": "2021-06-01T00:00:00.000Z", "price": 65, "retailer": "Amazon" },
+      { "date": "2023-01-01T00:00:00.000Z", "price": 55, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-gskill-ddr4-4000-32gb",
+    "name": "G.Skill Trident Z 32GB DDR4-4000 CL16",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 119,
+    "releaseDate": "2020-01-01T00:00:00.000Z",
+    "rating": 4.6,
+    "reviewCount": 280,
+    "performanceScore": 74,
+    "popularity": 72,
+    "specs": {
+      "type": "DDR4",
+      "speed": 4000,
+      "casLatency": 16,
+      "capacity": 32,
+      "channels": 2,
+      "voltage": 1.40,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Trident Z",
+      "timings": "16-16-16-36",
+      "releaseYear": 2020,
+      "kitCapacity": "32GB (2x16GB)",
+      "xmpProfile": "XMP 2.0",
+      "heightMm": 44,
+      "note": "Requires high-end Intel platform for stable 4000 MHz"
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2020-01-01T00:00:00.000Z", "price": 175, "retailer": "MSRP" },
+      { "date": "2021-06-01T00:00:00.000Z", "price": 145, "retailer": "Amazon" },
+      { "date": "2023-01-01T00:00:00.000Z", "price": 119, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-crucial-ddr4-3200-32gb",
+    "name": "Crucial 32GB DDR4-3200 CL22",
+    "brand": "Crucial",
+    "type": "RAM",
+    "price": 49,
+    "releaseDate": "2021-01-01T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 760,
+    "performanceScore": 52,
+    "popularity": 88,
+    "specs": {
+      "type": "DDR4",
+      "speed": 3200,
+      "casLatency": 22,
+      "capacity": 32,
+      "channels": 2,
+      "voltage": 1.20,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Standard",
+      "timings": "22-22-22-52",
+      "releaseYear": 2021,
+      "kitCapacity": "32GB (2x16GB)",
+      "xmpProfile": "None",
+      "heightMm": 31,
+      "note": "JEDEC compliant — plug and play on any DDR4 platform"
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2021-01-01T00:00:00.000Z", "price": 90, "retailer": "MSRP" },
+      { "date": "2022-06-01T00:00:00.000Z", "price": 70, "retailer": "Amazon" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 49, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-gskill-ddr4-3600-64gb",
+    "name": "G.Skill Ripjaws V 64GB DDR4-3600 CL18",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 129,
+    "releaseDate": "2021-01-01T00:00:00.000Z",
+    "rating": 4.6,
+    "reviewCount": 320,
+    "performanceScore": 72,
+    "popularity": 76,
+    "specs": {
+      "type": "DDR4",
+      "speed": 3600,
+      "casLatency": 18,
+      "capacity": 64,
+      "channels": 2,
+      "voltage": 1.35,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Ripjaws V",
+      "timings": "18-22-22-42",
+      "releaseYear": 2021,
+      "kitCapacity": "64GB (2x32GB)",
+      "xmpProfile": "XMP 2.0",
+      "heightMm": 42
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2021-01-01T00:00:00.000Z", "price": 200, "retailer": "MSRP" },
+      { "date": "2022-06-01T00:00:00.000Z", "price": 165, "retailer": "Amazon" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 129, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-corsair-ddr4-3200-64gb",
+    "name": "Corsair Vengeance LPX 64GB DDR4-3200 CL16",
+    "brand": "Corsair",
+    "type": "RAM",
+    "price": 109,
+    "releaseDate": "2021-01-01T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 290,
+    "performanceScore": 68,
+    "popularity": 74,
+    "specs": {
+      "type": "DDR4",
+      "speed": 3200,
+      "casLatency": 16,
+      "capacity": 64,
+      "channels": 2,
+      "voltage": 1.35,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Vengeance LPX",
+      "timings": "16-20-20-38",
+      "releaseYear": 2021,
+      "kitCapacity": "64GB (2x32GB)",
+      "xmpProfile": "XMP 2.0",
+      "heightMm": 31
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2021-01-01T00:00:00.000Z", "price": 200, "retailer": "MSRP" },
+      { "date": "2022-06-01T00:00:00.000Z", "price": 160, "retailer": "Amazon" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 109, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-gskill-ddr4-3200-8gb-single",
+    "name": "G.Skill Ripjaws V 8GB DDR4-3200 CL16 (Single)",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 18,
+    "releaseDate": "2020-01-01T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 480,
+    "performanceScore": 36,
+    "popularity": 72,
+    "specs": {
+      "type": "DDR4",
+      "speed": 3200,
+      "casLatency": 16,
+      "capacity": 8,
+      "channels": 1,
+      "voltage": 1.35,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Ripjaws V",
+      "timings": "16-18-18-38",
+      "releaseYear": 2020,
+      "kitCapacity": "8GB (1x8GB)",
+      "xmpProfile": "XMP 2.0",
+      "heightMm": 42,
+      "note": "Single-channel; pair two for dual-channel bandwidth boost"
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2020-01-01T00:00:00.000Z", "price": 35, "retailer": "MSRP" },
+      { "date": "2021-06-01T00:00:00.000Z", "price": 25, "retailer": "Amazon" },
+      { "date": "2023-01-01T00:00:00.000Z", "price": 18, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-crucial-ddr5-4800-16gb",
+    "name": "Crucial 16GB DDR5-4800 CL40",
+    "brand": "Crucial",
+    "type": "RAM",
+    "price": 39,
+    "releaseDate": "2022-01-01T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 520,
+    "performanceScore": 55,
+    "popularity": 78,
+    "specs": {
+      "type": "DDR5",
+      "speed": 4800,
+      "casLatency": 40,
+      "capacity": 16,
+      "channels": 2,
+      "voltage": 1.10,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Standard DDR5",
+      "timings": "40-39-39-77",
+      "releaseYear": 2022,
+      "kitCapacity": "16GB (1x16GB)",
+      "xmpProfile": "None",
+      "heightMm": 31,
+      "note": "DDR5 baseline JEDEC — each DIMM has 2 independent 32-bit channels"
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2022-01-01T00:00:00.000Z", "price": 90, "retailer": "MSRP" },
+      { "date": "2022-09-01T00:00:00.000Z", "price": 65, "retailer": "Amazon" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 39, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-corsair-ddr5-4800-32gb",
+    "name": "Corsair Vengeance 32GB DDR5-4800 CL40",
+    "brand": "Corsair",
+    "type": "RAM",
+    "price": 65,
+    "releaseDate": "2022-01-01T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 390,
+    "performanceScore": 60,
+    "popularity": 80,
+    "specs": {
+      "type": "DDR5",
+      "speed": 4800,
+      "casLatency": 40,
+      "capacity": 32,
+      "channels": 2,
+      "voltage": 1.10,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Vengeance DDR5",
+      "timings": "40-40-40-77",
+      "releaseYear": 2022,
+      "kitCapacity": "32GB (2x16GB)",
+      "xmpProfile": "XMP 3.0",
+      "heightMm": 34
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2022-01-01T00:00:00.000Z", "price": 130, "retailer": "MSRP" },
+      { "date": "2022-09-01T00:00:00.000Z", "price": 100, "retailer": "Amazon" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 65, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-gskill-ddr5-7200-32gb",
+    "name": "G.Skill Trident Z5 32GB DDR5-7200 CL34",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 189,
+    "releaseDate": "2023-01-01T00:00:00.000Z",
+    "rating": 4.7,
+    "reviewCount": 220,
+    "performanceScore": 90,
+    "popularity": 74,
+    "specs": {
+      "type": "DDR5",
+      "speed": 7200,
+      "casLatency": 34,
+      "capacity": 32,
+      "channels": 2,
+      "voltage": 1.45,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Trident Z5",
+      "timings": "34-45-45-115",
+      "releaseYear": 2023,
+      "kitCapacity": "32GB (2x16GB)",
+      "xmpProfile": "XMP 3.0",
+      "heightMm": 44,
+      "note": "DDR5-7200 — top-tier overclock for Intel 13th/14th gen platforms"
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2023-01-01T00:00:00.000Z", "price": 220, "retailer": "MSRP" },
+      { "date": "2023-09-01T00:00:00.000Z", "price": 199, "retailer": "Amazon" },
+      { "date": "2024-03-01T00:00:00.000Z", "price": 189, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-corsair-ddr5-6400-64gb",
+    "name": "Corsair Dominator Titanium 64GB DDR5-6400 CL32",
+    "brand": "Corsair",
+    "type": "RAM",
+    "price": 259,
+    "releaseDate": "2023-06-01T00:00:00.000Z",
+    "rating": 4.8,
+    "reviewCount": 180,
+    "performanceScore": 87,
+    "popularity": 78,
+    "specs": {
+      "type": "DDR5",
+      "speed": 6400,
+      "casLatency": 32,
+      "capacity": 64,
+      "channels": 2,
+      "voltage": 1.40,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Dominator Titanium",
+      "timings": "32-39-39-84",
+      "releaseYear": 2023,
+      "kitCapacity": "64GB (2x32GB)",
+      "xmpProfile": "XMP 3.0",
+      "heightMm": 56,
+      "rgb": true
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2023-06-01T00:00:00.000Z", "price": 320, "retailer": "MSRP" },
+      { "date": "2023-12-01T00:00:00.000Z", "price": 285, "retailer": "Amazon" },
+      { "date": "2024-06-01T00:00:00.000Z", "price": 259, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-gskill-ddr5-4800-64gb",
+    "name": "G.Skill Ripjaws S5 64GB DDR5-4800 CL40",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 109,
+    "releaseDate": "2023-01-01T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 240,
+    "performanceScore": 68,
+    "popularity": 72,
+    "specs": {
+      "type": "DDR5",
+      "speed": 4800,
+      "casLatency": 40,
+      "capacity": 64,
+      "channels": 2,
+      "voltage": 1.10,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Ripjaws S5",
+      "timings": "40-40-40-77",
+      "releaseYear": 2023,
+      "kitCapacity": "64GB (2x32GB)",
+      "xmpProfile": "XMP 3.0",
+      "heightMm": 33,
+      "note": "Low-profile design for compatibility with tall CPU coolers"
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2023-01-01T00:00:00.000Z", "price": 180, "retailer": "MSRP" },
+      { "date": "2023-09-01T00:00:00.000Z", "price": 140, "retailer": "Amazon" },
+      { "date": "2024-03-01T00:00:00.000Z", "price": 109, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-corsair-ddr5-6000-128gb",
+    "name": "Corsair Vengeance 128GB DDR5-6000 CL30",
+    "brand": "Corsair",
+    "type": "RAM",
+    "price": 359,
+    "releaseDate": "2023-06-01T00:00:00.000Z",
+    "rating": 4.7,
+    "reviewCount": 130,
+    "performanceScore": 85,
+    "popularity": 68,
+    "specs": {
+      "type": "DDR5",
+      "speed": 6000,
+      "casLatency": 30,
+      "capacity": 128,
+      "channels": 2,
+      "voltage": 1.35,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Vengeance DDR5",
+      "timings": "30-36-36-76",
+      "releaseYear": 2023,
+      "kitCapacity": "128GB (2x64GB)",
+      "xmpProfile": "XMP 3.0",
+      "heightMm": 34,
+      "note": "Ideal for workstations and content creation requiring maximum RAM"
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2023-06-01T00:00:00.000Z", "price": 480, "retailer": "MSRP" },
+      { "date": "2023-12-01T00:00:00.000Z", "price": 420, "retailer": "Amazon" },
+      { "date": "2024-06-01T00:00:00.000Z", "price": 359, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-gskill-ddr5-4800-128gb",
+    "name": "G.Skill Trident Z5 128GB DDR5-4800 CL40",
+    "brand": "G.Skill",
+    "type": "RAM",
+    "price": 249,
+    "releaseDate": "2023-01-01T00:00:00.000Z",
+    "rating": 4.6,
+    "reviewCount": 110,
+    "performanceScore": 78,
+    "popularity": 62,
+    "specs": {
+      "type": "DDR5",
+      "speed": 4800,
+      "casLatency": 40,
+      "capacity": 128,
+      "channels": 2,
+      "voltage": 1.10,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "Trident Z5",
+      "timings": "40-40-40-77",
+      "releaseYear": 2023,
+      "kitCapacity": "128GB (2x64GB)",
+      "xmpProfile": "XMP 3.0",
+      "heightMm": 44
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2023-01-01T00:00:00.000Z", "price": 380, "retailer": "MSRP" },
+      { "date": "2023-09-01T00:00:00.000Z", "price": 300, "retailer": "Amazon" },
+      { "date": "2024-03-01T00:00:00.000Z", "price": 249, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "ram-teamgroup-ddr5-6800-32gb",
+    "name": "TeamGroup T-Force Delta RGB 32GB DDR5-6800 CL34",
+    "brand": "Team Group",
+    "type": "RAM",
+    "price": 139,
+    "releaseDate": "2023-04-01T00:00:00.000Z",
+    "rating": 4.6,
+    "reviewCount": 190,
+    "performanceScore": 88,
+    "popularity": 72,
+    "specs": {
+      "type": "DDR5",
+      "speed": 6800,
+      "casLatency": 34,
+      "capacity": 32,
+      "channels": 2,
+      "voltage": 1.40,
+      "formFactor": "DIMM"
+    },
+    "fullSpecs": {
+      "series": "T-Force Delta RGB",
+      "timings": "34-42-42-84",
+      "releaseYear": 2023,
+      "kitCapacity": "32GB (2x16GB)",
+      "xmpProfile": "XMP 3.0",
+      "heightMm": 40,
+      "rgb": true
+    },
+    "benchmarks": [],
+    "priceHistory": [
+      { "date": "2023-04-01T00:00:00.000Z", "price": 180, "retailer": "MSRP" },
+      { "date": "2023-09-01T00:00:00.000Z", "price": 159, "retailer": "Amazon" },
+      { "date": "2024-03-01T00:00:00.000Z", "price": 139, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  }
+]

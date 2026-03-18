@@ -1,0 +1,64 @@
+﻿name: Refresh Component Catalog
+
+on:
+  schedule:
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Clear scrape cache
+        run: rm -rf .scrape-cache
+
+      - name: Run catalog scraper
+        run: npm run scrape
+        env:
+          NODE_OPTIONS: '--max-old-space-size=4096'
+
+      - name: Validate catalog
+        id: validate
+        run: |
+          COMPONENT_COUNT=$(node -e "const c = require('./public/catalog.json'); console.log(c.components ? c.components.length : 0)")
+          echo "count=$COMPONENT_COUNT" >> $GITHUB_OUTPUT
+          echo "Components found: $COMPONENT_COUNT"
+          if [ "$COMPONENT_COUNT" -lt 10 ]; then
+            echo "::warning::Low component count: $COMPONENT_COUNT"
+          fi
+
+      - name: Push catalog to Supabase
+        if: steps.validate.outputs.count > 0
+        run: node scripts/pushToSupabase.js
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+
+      - name: Commit updated catalog
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/catalog.json
+          git diff --cached --quiet || git commit -m "chore: refresh catalog (${{ steps.validate.outputs.count }} components)"
+          git push || true
+
+      - name: Clean up scrape cache
+        if: always()
+        run: rm -rf .scrape-cache

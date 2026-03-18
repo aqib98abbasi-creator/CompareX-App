@@ -1,0 +1,407 @@
+{
+  "_meta": {
+    "version": "2.0.0",
+    "sources": [
+      "TechPowerUp GPU reviews (2022-2025)",
+      "Gamers Nexus GPU/CPU benchmark compilations",
+      "Hardware Unboxed GPU review suite",
+      "Puget Systems Premiere Pro / DaVinci Resolve benchmarks",
+      "Blender Open Data benchmark results",
+      "V-Ray benchmark public results database"
+    ],
+    "lastUpdated": "2025-03-01",
+    "notes": "FPS values represent averages without upscaling (no DLSS/FSR). Render times based on standardized test scenes. GPU tiers: budget (<62), mid (62-77), high-end (78-91), flagship (92+)."
+  },
+  "budget": {
+    "Gaming": {
+      "Cyberpunk 2077": {
+        "1080p": { "ultra": 42, "medium": 68 },
+        "1440p": { "ultra": 28, "medium": 48 },
+        "4K": { "ultra": 14, "medium": 26 }
+      },
+      "Call of Duty: Warzone": {
+        "1080p": { "ultra": 72, "medium": 98 },
+        "1440p": { "ultra": 52, "medium": 76 },
+        "4K": { "ultra": 28, "medium": 44 }
+      },
+      "Fortnite": {
+        "1080p": { "ultra": 85, "medium": 145 },
+        "1440p": { "ultra": 62, "medium": 108 },
+        "4K": { "ultra": 32, "medium": 58 }
+      },
+      "Apex Legends": {
+        "1080p": { "ultra": 78, "medium": 118 },
+        "1440p": { "ultra": 58, "medium": 92 },
+        "4K": { "ultra": 30, "medium": 52 }
+      },
+      "CS2": {
+        "1080p": { "ultra": 155, "medium": 220 },
+        "1440p": { "ultra": 115, "medium": 175 },
+        "4K": { "ultra": 62, "medium": 105 }
+      },
+      "Valorant": {
+        "1080p": { "ultra": 195, "medium": 310 },
+        "1440p": { "ultra": 165, "medium": 270 },
+        "4K": { "ultra": 98, "medium": 185 }
+      },
+      "GTA V": {
+        "1080p": { "ultra": 72, "medium": 105 },
+        "1440p": { "ultra": 55, "medium": 82 },
+        "4K": { "ultra": 30, "medium": 48 }
+      },
+      "Forza Horizon 5": {
+        "1080p": { "ultra": 68, "medium": 98 },
+        "1440p": { "ultra": 52, "medium": 78 },
+        "4K": { "ultra": 28, "medium": 45 }
+      },
+      "Red Dead Redemption 2": {
+        "1080p": { "ultra": 48, "medium": 72 },
+        "1440p": { "ultra": 35, "medium": 55 },
+        "4K": { "ultra": 18, "medium": 32 }
+      },
+      "Elden Ring": {
+        "1080p": { "ultra": 55, "medium": 60 },
+        "1440p": { "ultra": 45, "medium": 58 },
+        "4K": { "ultra": 28, "medium": 40 }
+      },
+      "Hogwarts Legacy": {
+        "1080p": { "ultra": 38, "medium": 62 },
+        "1440p": { "ultra": 26, "medium": 45 },
+        "4K": { "ultra": 14, "medium": 25 }
+      },
+      "Alan Wake 2": {
+        "1080p": { "ultra": 32, "medium": 52 },
+        "1440p": { "ultra": 22, "medium": 38 },
+        "4K": { "ultra": 12, "medium": 22 }
+      },
+      "The Last of Us Part I": {
+        "1080p": { "ultra": 52, "medium": 75 },
+        "1440p": { "ultra": 38, "medium": 58 },
+        "4K": { "ultra": 20, "medium": 34 }
+      },
+      "Star Wars Jedi: Survivor": {
+        "1080p": { "ultra": 42, "medium": 65 },
+        "1440p": { "ultra": 30, "medium": 48 },
+        "4K": { "ultra": 16, "medium": 28 }
+      },
+      "Microsoft Flight Simulator": {
+        "1080p": { "ultra": 35, "medium": 55 },
+        "1440p": { "ultra": 25, "medium": 42 },
+        "4K": { "ultra": 14, "medium": 24 }
+      }
+    },
+    "Video Editing": {
+      "Premiere Pro (4K H.264 export)": { "value": 14.2, "unit": "min", "isLowerBetter": true },
+      "DaVinci Resolve (4K H.265 export)": { "value": 18.5, "unit": "min", "isLowerBetter": true },
+      "After Effects (RAM Preview)": { "value": 12.8, "unit": "sec/frame", "isLowerBetter": true }
+    },
+    "3D Rendering": {
+      "Blender BMW (CPU)": { "value": 22.4, "unit": "min", "isLowerBetter": true },
+      "Blender Classroom (CPU)": { "value": 42.8, "unit": "min", "isLowerBetter": true },
+      "Cinema 4D (Standard)": { "value": 28.5, "unit": "min", "isLowerBetter": true },
+      "V-Ray Benchmark": { "value": 18.2, "unit": "min", "isLowerBetter": true },
+      "KeyShot Render": { "value": 20.6, "unit": "min", "isLowerBetter": true }
+    },
+    "General Workstation": {
+      "Chrome (Speedometer 3.0)": { "value": 145, "unit": "score" },
+      "PCMark Office": { "value": 4850, "unit": "score" },
+      "7-Zip Compression": { "value": 38.5, "unit": "sec", "isLowerBetter": true },
+      "File Decompression": { "value": 24.2, "unit": "sec", "isLowerBetter": true },
+      "Handbrake (4K Transcode)": { "value": 18.5, "unit": "min", "isLowerBetter": true }
+    }
+  },
+  "mid": {
+    "Gaming": {
+      "Cyberpunk 2077": {
+        "1080p": { "ultra": 62, "medium": 85 },
+        "1440p": { "ultra": 45, "medium": 68 },
+        "4K": { "ultra": 24, "medium": 40 }
+      },
+      "Call of Duty: Warzone": {
+        "1080p": { "ultra": 95, "medium": 125 },
+        "1440p": { "ultra": 72, "medium": 100 },
+        "4K": { "ultra": 42, "medium": 62 }
+      },
+      "Fortnite": {
+        "1080p": { "ultra": 115, "medium": 180 },
+        "1440p": { "ultra": 88, "medium": 142 },
+        "4K": { "ultra": 48, "medium": 82 }
+      },
+      "Apex Legends": {
+        "1080p": { "ultra": 105, "medium": 148 },
+        "1440p": { "ultra": 80, "medium": 118 },
+        "4K": { "ultra": 45, "medium": 72 }
+      },
+      "CS2": {
+        "1080p": { "ultra": 210, "medium": 295 },
+        "1440p": { "ultra": 168, "medium": 245 },
+        "4K": { "ultra": 95, "medium": 155 }
+      },
+      "Valorant": {
+        "1080p": { "ultra": 275, "medium": 395 },
+        "1440p": { "ultra": 235, "medium": 345 },
+        "4K": { "ultra": 145, "medium": 240 }
+      },
+      "GTA V": {
+        "1080p": { "ultra": 95, "medium": 130 },
+        "1440p": { "ultra": 75, "medium": 108 },
+        "4K": { "ultra": 42, "medium": 65 }
+      },
+      "Forza Horizon 5": {
+        "1080p": { "ultra": 88, "medium": 122 },
+        "1440p": { "ultra": 70, "medium": 100 },
+        "4K": { "ultra": 40, "medium": 62 }
+      },
+      "Red Dead Redemption 2": {
+        "1080p": { "ultra": 65, "medium": 90 },
+        "1440p": { "ultra": 50, "medium": 72 },
+        "4K": { "ultra": 28, "medium": 44 }
+      },
+      "Elden Ring": {
+        "1080p": { "ultra": 60, "medium": 60 },
+        "1440p": { "ultra": 58, "medium": 60 },
+        "4K": { "ultra": 40, "medium": 55 }
+      },
+      "Hogwarts Legacy": {
+        "1080p": { "ultra": 55, "medium": 82 },
+        "1440p": { "ultra": 40, "medium": 62 },
+        "4K": { "ultra": 22, "medium": 38 }
+      },
+      "Alan Wake 2": {
+        "1080p": { "ultra": 48, "medium": 72 },
+        "1440p": { "ultra": 34, "medium": 55 },
+        "4K": { "ultra": 18, "medium": 32 }
+      },
+      "The Last of Us Part I": {
+        "1080p": { "ultra": 72, "medium": 98 },
+        "1440p": { "ultra": 55, "medium": 78 },
+        "4K": { "ultra": 30, "medium": 48 }
+      },
+      "Star Wars Jedi: Survivor": {
+        "1080p": { "ultra": 58, "medium": 85 },
+        "1440p": { "ultra": 42, "medium": 65 },
+        "4K": { "ultra": 24, "medium": 38 }
+      },
+      "Microsoft Flight Simulator": {
+        "1080p": { "ultra": 48, "medium": 72 },
+        "1440p": { "ultra": 36, "medium": 56 },
+        "4K": { "ultra": 20, "medium": 34 }
+      }
+    },
+    "Video Editing": {
+      "Premiere Pro (4K H.264 export)": { "value": 10.5, "unit": "min", "isLowerBetter": true },
+      "DaVinci Resolve (4K H.265 export)": { "value": 13.8, "unit": "min", "isLowerBetter": true },
+      "After Effects (RAM Preview)": { "value": 9.2, "unit": "sec/frame", "isLowerBetter": true }
+    },
+    "3D Rendering": {
+      "Blender BMW (CPU)": { "value": 16.5, "unit": "min", "isLowerBetter": true },
+      "Blender Classroom (CPU)": { "value": 32.0, "unit": "min", "isLowerBetter": true },
+      "Cinema 4D (Standard)": { "value": 21.2, "unit": "min", "isLowerBetter": true },
+      "V-Ray Benchmark": { "value": 13.5, "unit": "min", "isLowerBetter": true },
+      "KeyShot Render": { "value": 15.2, "unit": "min", "isLowerBetter": true }
+    },
+    "General Workstation": {
+      "Chrome (Speedometer 3.0)": { "value": 185, "unit": "score" },
+      "PCMark Office": { "value": 5680, "unit": "score" },
+      "7-Zip Compression": { "value": 28.0, "unit": "sec", "isLowerBetter": true },
+      "File Decompression": { "value": 18.5, "unit": "sec", "isLowerBetter": true },
+      "Handbrake (4K Transcode)": { "value": 13.2, "unit": "min", "isLowerBetter": true }
+    }
+  },
+  "high-end": {
+    "Gaming": {
+      "Cyberpunk 2077": {
+        "1080p": { "ultra": 82, "medium": 108 },
+        "1440p": { "ultra": 62, "medium": 88 },
+        "4K": { "ultra": 35, "medium": 55 }
+      },
+      "Call of Duty: Warzone": {
+        "1080p": { "ultra": 125, "medium": 158 },
+        "1440p": { "ultra": 98, "medium": 130 },
+        "4K": { "ultra": 58, "medium": 82 }
+      },
+      "Fortnite": {
+        "1080p": { "ultra": 155, "medium": 225 },
+        "1440p": { "ultra": 118, "medium": 178 },
+        "4K": { "ultra": 68, "medium": 112 }
+      },
+      "Apex Legends": {
+        "1080p": { "ultra": 138, "medium": 185 },
+        "1440p": { "ultra": 108, "medium": 150 },
+        "4K": { "ultra": 62, "medium": 95 }
+      },
+      "CS2": {
+        "1080p": { "ultra": 290, "medium": 380 },
+        "1440p": { "ultra": 240, "medium": 325 },
+        "4K": { "ultra": 148, "medium": 215 }
+      },
+      "Valorant": {
+        "1080p": { "ultra": 365, "medium": 475 },
+        "1440p": { "ultra": 315, "medium": 420 },
+        "4K": { "ultra": 210, "medium": 310 }
+      },
+      "GTA V": {
+        "1080p": { "ultra": 125, "medium": 162 },
+        "1440p": { "ultra": 100, "medium": 135 },
+        "4K": { "ultra": 58, "medium": 85 }
+      },
+      "Forza Horizon 5": {
+        "1080p": { "ultra": 115, "medium": 148 },
+        "1440p": { "ultra": 92, "medium": 125 },
+        "4K": { "ultra": 55, "medium": 80 }
+      },
+      "Red Dead Redemption 2": {
+        "1080p": { "ultra": 82, "medium": 108 },
+        "1440p": { "ultra": 65, "medium": 88 },
+        "4K": { "ultra": 38, "medium": 55 }
+      },
+      "Elden Ring": {
+        "1080p": { "ultra": 60, "medium": 60 },
+        "1440p": { "ultra": 60, "medium": 60 },
+        "4K": { "ultra": 52, "medium": 60 }
+      },
+      "Hogwarts Legacy": {
+        "1080p": { "ultra": 72, "medium": 102 },
+        "1440p": { "ultra": 55, "medium": 82 },
+        "4K": { "ultra": 32, "medium": 50 }
+      },
+      "Alan Wake 2": {
+        "1080p": { "ultra": 65, "medium": 92 },
+        "1440p": { "ultra": 48, "medium": 72 },
+        "4K": { "ultra": 26, "medium": 42 }
+      },
+      "The Last of Us Part I": {
+        "1080p": { "ultra": 95, "medium": 128 },
+        "1440p": { "ultra": 75, "medium": 105 },
+        "4K": { "ultra": 42, "medium": 65 }
+      },
+      "Star Wars Jedi: Survivor": {
+        "1080p": { "ultra": 78, "medium": 108 },
+        "1440p": { "ultra": 60, "medium": 85 },
+        "4K": { "ultra": 34, "medium": 52 }
+      },
+      "Microsoft Flight Simulator": {
+        "1080p": { "ultra": 62, "medium": 88 },
+        "1440p": { "ultra": 48, "medium": 72 },
+        "4K": { "ultra": 28, "medium": 45 }
+      }
+    },
+    "Video Editing": {
+      "Premiere Pro (4K H.264 export)": { "value": 7.8, "unit": "min", "isLowerBetter": true },
+      "DaVinci Resolve (4K H.265 export)": { "value": 10.2, "unit": "min", "isLowerBetter": true },
+      "After Effects (RAM Preview)": { "value": 6.5, "unit": "sec/frame", "isLowerBetter": true }
+    },
+    "3D Rendering": {
+      "Blender BMW (CPU)": { "value": 11.8, "unit": "min", "isLowerBetter": true },
+      "Blender Classroom (CPU)": { "value": 23.5, "unit": "min", "isLowerBetter": true },
+      "Cinema 4D (Standard)": { "value": 15.8, "unit": "min", "isLowerBetter": true },
+      "V-Ray Benchmark": { "value": 9.8, "unit": "min", "isLowerBetter": true },
+      "KeyShot Render": { "value": 11.2, "unit": "min", "isLowerBetter": true }
+    },
+    "General Workstation": {
+      "Chrome (Speedometer 3.0)": { "value": 225, "unit": "score" },
+      "PCMark Office": { "value": 6420, "unit": "score" },
+      "7-Zip Compression": { "value": 21.5, "unit": "sec", "isLowerBetter": true },
+      "File Decompression": { "value": 14.2, "unit": "sec", "isLowerBetter": true },
+      "Handbrake (4K Transcode)": { "value": 9.5, "unit": "min", "isLowerBetter": true }
+    }
+  },
+  "flagship": {
+    "Gaming": {
+      "Cyberpunk 2077": {
+        "1080p": { "ultra": 105, "medium": 132 },
+        "1440p": { "ultra": 82, "medium": 110 },
+        "4K": { "ultra": 52, "medium": 75 }
+      },
+      "Call of Duty: Warzone": {
+        "1080p": { "ultra": 155, "medium": 190 },
+        "1440p": { "ultra": 128, "medium": 162 },
+        "4K": { "ultra": 78, "medium": 105 }
+      },
+      "Fortnite": {
+        "1080p": { "ultra": 195, "medium": 270 },
+        "1440p": { "ultra": 155, "medium": 220 },
+        "4K": { "ultra": 95, "medium": 145 }
+      },
+      "Apex Legends": {
+        "1080p": { "ultra": 175, "medium": 225 },
+        "1440p": { "ultra": 142, "medium": 188 },
+        "4K": { "ultra": 85, "medium": 125 }
+      },
+      "CS2": {
+        "1080p": { "ultra": 380, "medium": 475 },
+        "1440p": { "ultra": 325, "medium": 415 },
+        "4K": { "ultra": 210, "medium": 295 }
+      },
+      "Valorant": {
+        "1080p": { "ultra": 440, "medium": 560 },
+        "1440p": { "ultra": 390, "medium": 500 },
+        "4K": { "ultra": 280, "medium": 385 }
+      },
+      "GTA V": {
+        "1080p": { "ultra": 158, "medium": 195 },
+        "1440p": { "ultra": 130, "medium": 168 },
+        "4K": { "ultra": 78, "medium": 108 }
+      },
+      "Forza Horizon 5": {
+        "1080p": { "ultra": 142, "medium": 178 },
+        "1440p": { "ultra": 118, "medium": 152 },
+        "4K": { "ultra": 72, "medium": 100 }
+      },
+      "Red Dead Redemption 2": {
+        "1080p": { "ultra": 105, "medium": 132 },
+        "1440p": { "ultra": 85, "medium": 110 },
+        "4K": { "ultra": 52, "medium": 72 }
+      },
+      "Elden Ring": {
+        "1080p": { "ultra": 60, "medium": 60 },
+        "1440p": { "ultra": 60, "medium": 60 },
+        "4K": { "ultra": 60, "medium": 60 }
+      },
+      "Hogwarts Legacy": {
+        "1080p": { "ultra": 95, "medium": 128 },
+        "1440p": { "ultra": 75, "medium": 105 },
+        "4K": { "ultra": 45, "medium": 68 }
+      },
+      "Alan Wake 2": {
+        "1080p": { "ultra": 82, "medium": 112 },
+        "1440p": { "ultra": 65, "medium": 92 },
+        "4K": { "ultra": 38, "medium": 58 }
+      },
+      "The Last of Us Part I": {
+        "1080p": { "ultra": 125, "medium": 158 },
+        "1440p": { "ultra": 102, "medium": 135 },
+        "4K": { "ultra": 60, "medium": 85 }
+      },
+      "Star Wars Jedi: Survivor": {
+        "1080p": { "ultra": 98, "medium": 132 },
+        "1440p": { "ultra": 78, "medium": 108 },
+        "4K": { "ultra": 48, "medium": 72 }
+      },
+      "Microsoft Flight Simulator": {
+        "1080p": { "ultra": 78, "medium": 105 },
+        "1440p": { "ultra": 62, "medium": 88 },
+        "4K": { "ultra": 38, "medium": 58 }
+      }
+    },
+    "Video Editing": {
+      "Premiere Pro (4K H.264 export)": { "value": 5.2, "unit": "min", "isLowerBetter": true },
+      "DaVinci Resolve (4K H.265 export)": { "value": 7.5, "unit": "min", "isLowerBetter": true },
+      "After Effects (RAM Preview)": { "value": 4.2, "unit": "sec/frame", "isLowerBetter": true }
+    },
+    "3D Rendering": {
+      "Blender BMW (CPU)": { "value": 7.5, "unit": "min", "isLowerBetter": true },
+      "Blender Classroom (CPU)": { "value": 16.2, "unit": "min", "isLowerBetter": true },
+      "Cinema 4D (Standard)": { "value": 10.5, "unit": "min", "isLowerBetter": true },
+      "V-Ray Benchmark": { "value": 6.8, "unit": "min", "isLowerBetter": true },
+      "KeyShot Render": { "value": 7.8, "unit": "min", "isLowerBetter": true }
+    },
+    "General Workstation": {
+      "Chrome (Speedometer 3.0)": { "value": 285, "unit": "score" },
+      "PCMark Office": { "value": 7250, "unit": "score" },
+      "7-Zip Compression": { "value": 15.8, "unit": "sec", "isLowerBetter": true },
+      "File Decompression": { "value": 10.5, "unit": "sec", "isLowerBetter": true },
+      "Handbrake (4K Transcode)": { "value": 6.8, "unit": "min", "isLowerBetter": true }
+    }
+  }
+}

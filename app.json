@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "CompareX",
+    "slug": "comparex",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.comparex.app"
+    },
+    "android": {
+      "package": "com.comparex.app"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

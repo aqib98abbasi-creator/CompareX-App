@@ -1,0 +1,1438 @@
+[
+  {
+    "id": "cpu-i9-14900ks",
+    "name": "Intel Core i9-14900KS",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 699,
+    "releaseDate": "2024-01-06T00:00:00.000Z",
+    "rating": 4.6,
+    "reviewCount": 210,
+    "performanceScore": 98,
+    "popularity": 88,
+    "specs": {
+      "cores": 24,
+      "threads": 32,
+      "baseClock": 3.2,
+      "boostClock": 6.2,
+      "tdp": 150,
+      "socket": "LGA1700",
+      "cache": { "l1": 2048, "l2": 32768, "l3": 36 },
+      "architecture": "Raptor Lake Refresh",
+      "lithography": 10
+    },
+    "fullSpecs": {
+      "series": "Core i9 14th Gen",
+      "releaseYear": 2024,
+      "passmarkScore": 57080,
+      "cinebenchR23Single": 2262,
+      "cinebenchR23Multi": 41200,
+      "memoryType": "DDR4-3200 / DDR5-5600",
+      "maxMemory": 192,
+      "pcieVersion": "PCIe 5.0 / PCIe 4.0",
+      "perf_cores": 8,
+      "eff_cores": 16,
+      "unlocked": true
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 100, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 99, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 99, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 95, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2024-01-06T00:00:00.000Z", "price": 699, "retailer": "MSRP" },
+      { "date": "2024-06-01T00:00:00.000Z", "price": 664, "retailer": "Amazon" },
+      { "date": "2024-12-01T00:00:00.000Z", "price": 619, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i5-14400",
+    "name": "Intel Core i5-14400",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 219,
+    "releaseDate": "2024-01-06T00:00:00.000Z",
+    "rating": 4.6,
+    "reviewCount": 280,
+    "performanceScore": 72,
+    "popularity": 88,
+    "specs": {
+      "cores": 10,
+      "threads": 16,
+      "baseClock": 2.5,
+      "boostClock": 4.7,
+      "tdp": 65,
+      "socket": "LGA1700",
+      "cache": { "l1": 864, "l2": 9728, "l3": 20 },
+      "architecture": "Raptor Lake Refresh",
+      "lithography": 10,
+      "integratedGraphics": "Intel UHD 730"
+    },
+    "fullSpecs": {
+      "series": "Core i5 14th Gen",
+      "releaseYear": 2024,
+      "passmarkScore": 21800,
+      "cinebenchR23Single": 1900,
+      "cinebenchR23Multi": 17200,
+      "memoryType": "DDR4-3200 / DDR5-4800",
+      "maxMemory": 192,
+      "pcieVersion": "PCIe 5.0 / PCIe 4.0",
+      "perf_cores": 6,
+      "eff_cores": 4,
+      "unlocked": false
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 84, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 62, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 68, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 76, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2024-01-06T00:00:00.000Z", "price": 219, "retailer": "MSRP" },
+      { "date": "2024-06-01T00:00:00.000Z", "price": 208, "retailer": "Amazon" },
+      { "date": "2024-12-01T00:00:00.000Z", "price": 197, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i3-14100",
+    "name": "Intel Core i3-14100",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 134,
+    "releaseDate": "2024-01-06T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 190,
+    "performanceScore": 52,
+    "popularity": 72,
+    "specs": {
+      "cores": 4,
+      "threads": 8,
+      "baseClock": 3.5,
+      "boostClock": 4.7,
+      "tdp": 60,
+      "socket": "LGA1700",
+      "cache": { "l1": 320, "l2": 5120, "l3": 12 },
+      "architecture": "Raptor Lake Refresh",
+      "lithography": 10,
+      "integratedGraphics": "Intel UHD 730"
+    },
+    "fullSpecs": {
+      "series": "Core i3 14th Gen",
+      "releaseYear": 2024,
+      "passmarkScore": 10200,
+      "cinebenchR23Single": 1870,
+      "cinebenchR23Multi": 7000,
+      "memoryType": "DDR4-3200 / DDR5-4800",
+      "maxMemory": 192,
+      "pcieVersion": "PCIe 4.0",
+      "perf_cores": 4,
+      "eff_cores": 0,
+      "unlocked": false
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 82, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 38, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 44, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 60, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2024-01-06T00:00:00.000Z", "price": 134, "retailer": "MSRP" },
+      { "date": "2024-06-01T00:00:00.000Z", "price": 127, "retailer": "Amazon" },
+      { "date": "2024-12-01T00:00:00.000Z", "price": 120, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i5-13500",
+    "name": "Intel Core i5-13500",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 249,
+    "releaseDate": "2023-01-03T00:00:00.000Z",
+    "rating": 4.6,
+    "reviewCount": 240,
+    "performanceScore": 76,
+    "popularity": 84,
+    "specs": {
+      "cores": 14,
+      "threads": 20,
+      "baseClock": 2.5,
+      "boostClock": 4.8,
+      "tdp": 65,
+      "socket": "LGA1700",
+      "cache": { "l1": 1152, "l2": 11776, "l3": 24 },
+      "architecture": "Raptor Lake",
+      "lithography": 10,
+      "integratedGraphics": "Intel UHD 770"
+    },
+    "fullSpecs": {
+      "series": "Core i5 13th Gen",
+      "releaseYear": 2023,
+      "passmarkScore": 25600,
+      "cinebenchR23Single": 1960,
+      "cinebenchR23Multi": 20000,
+      "memoryType": "DDR4-3200 / DDR5-4800",
+      "maxMemory": 192,
+      "pcieVersion": "PCIe 5.0 / PCIe 4.0",
+      "perf_cores": 6,
+      "eff_cores": 8,
+      "unlocked": false
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 86, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 72, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 76, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 80, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2023-01-03T00:00:00.000Z", "price": 249, "retailer": "MSRP" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 236, "retailer": "Amazon" },
+      { "date": "2023-12-01T00:00:00.000Z", "price": 224, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i5-13400",
+    "name": "Intel Core i5-13400",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 229,
+    "releaseDate": "2023-01-03T00:00:00.000Z",
+    "rating": 4.7,
+    "reviewCount": 320,
+    "performanceScore": 70,
+    "popularity": 90,
+    "specs": {
+      "cores": 10,
+      "threads": 16,
+      "baseClock": 2.5,
+      "boostClock": 4.6,
+      "tdp": 65,
+      "socket": "LGA1700",
+      "cache": { "l1": 864, "l2": 9728, "l3": 20 },
+      "architecture": "Raptor Lake",
+      "lithography": 10,
+      "integratedGraphics": "Intel UHD 730"
+    },
+    "fullSpecs": {
+      "series": "Core i5 13th Gen",
+      "releaseYear": 2023,
+      "passmarkScore": 22100,
+      "cinebenchR23Single": 1920,
+      "cinebenchR23Multi": 17600,
+      "memoryType": "DDR4-3200 / DDR5-4800",
+      "maxMemory": 192,
+      "pcieVersion": "PCIe 4.0",
+      "perf_cores": 6,
+      "eff_cores": 4,
+      "unlocked": false
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 84, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 64, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 68, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 74, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2023-01-03T00:00:00.000Z", "price": 229, "retailer": "MSRP" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 217, "retailer": "Amazon" },
+      { "date": "2023-12-01T00:00:00.000Z", "price": 206, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i3-13100",
+    "name": "Intel Core i3-13100",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 139,
+    "releaseDate": "2023-01-03T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 170,
+    "performanceScore": 50,
+    "popularity": 68,
+    "specs": {
+      "cores": 4,
+      "threads": 8,
+      "baseClock": 3.4,
+      "boostClock": 4.5,
+      "tdp": 60,
+      "socket": "LGA1700",
+      "cache": { "l1": 320, "l2": 5120, "l3": 12 },
+      "architecture": "Raptor Lake",
+      "lithography": 10,
+      "integratedGraphics": "Intel UHD 730"
+    },
+    "fullSpecs": {
+      "series": "Core i3 13th Gen",
+      "releaseYear": 2023,
+      "passmarkScore": 9800,
+      "cinebenchR23Single": 1820,
+      "cinebenchR23Multi": 6700,
+      "memoryType": "DDR4-3200 / DDR5-4800",
+      "maxMemory": 192,
+      "pcieVersion": "PCIe 4.0",
+      "perf_cores": 4,
+      "eff_cores": 0,
+      "unlocked": false
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 80, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 36, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 42, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 58, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2023-01-03T00:00:00.000Z", "price": 139, "retailer": "MSRP" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 132, "retailer": "Amazon" },
+      { "date": "2023-12-01T00:00:00.000Z", "price": 125, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i9-12900ks",
+    "name": "Intel Core i9-12900KS",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 739,
+    "releaseDate": "2022-03-01T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 140,
+    "performanceScore": 86,
+    "popularity": 74,
+    "specs": {
+      "cores": 16,
+      "threads": 24,
+      "baseClock": 3.4,
+      "boostClock": 5.5,
+      "tdp": 150,
+      "socket": "LGA1700",
+      "cache": { "l1": 1280, "l2": 14336, "l3": 30 },
+      "architecture": "Alder Lake",
+      "lithography": 10
+    },
+    "fullSpecs": {
+      "series": "Core i9 12th Gen",
+      "releaseYear": 2022,
+      "passmarkScore": 38000,
+      "cinebenchR23Single": 1960,
+      "cinebenchR23Multi": 24000,
+      "memoryType": "DDR4-3200 / DDR5-4800",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 5.0 / PCIe 4.0",
+      "perf_cores": 8,
+      "eff_cores": 8,
+      "unlocked": true
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 86, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 86, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 85, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 88, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2022-03-01T00:00:00.000Z", "price": 739, "retailer": "MSRP" },
+      { "date": "2022-09-01T00:00:00.000Z", "price": 702, "retailer": "Amazon" },
+      { "date": "2023-03-01T00:00:00.000Z", "price": 480, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i7-12700",
+    "name": "Intel Core i7-12700",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 349,
+    "releaseDate": "2021-11-04T00:00:00.000Z",
+    "rating": 4.6,
+    "reviewCount": 260,
+    "performanceScore": 76,
+    "popularity": 82,
+    "specs": {
+      "cores": 12,
+      "threads": 20,
+      "baseClock": 2.1,
+      "boostClock": 4.9,
+      "tdp": 65,
+      "socket": "LGA1700",
+      "cache": { "l1": 1024, "l2": 12288, "l3": 25 },
+      "architecture": "Alder Lake",
+      "lithography": 10,
+      "integratedGraphics": "Intel UHD 770"
+    },
+    "fullSpecs": {
+      "series": "Core i7 12th Gen",
+      "releaseYear": 2021,
+      "passmarkScore": 27600,
+      "cinebenchR23Single": 1880,
+      "cinebenchR23Multi": 20400,
+      "memoryType": "DDR4-3200 / DDR5-4800",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 5.0 / PCIe 4.0",
+      "perf_cores": 8,
+      "eff_cores": 4,
+      "unlocked": false
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 83, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 74, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 76, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 80, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2021-11-04T00:00:00.000Z", "price": 349, "retailer": "MSRP" },
+      { "date": "2022-06-01T00:00:00.000Z", "price": 331, "retailer": "Amazon" },
+      { "date": "2023-01-01T00:00:00.000Z", "price": 289, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i5-12400f",
+    "name": "Intel Core i5-12400F",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 169,
+    "releaseDate": "2022-01-04T00:00:00.000Z",
+    "rating": 4.8,
+    "reviewCount": 420,
+    "performanceScore": 66,
+    "popularity": 94,
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": 2.5,
+      "boostClock": 4.4,
+      "tdp": 65,
+      "socket": "LGA1700",
+      "cache": { "l1": 480, "l2": 7680, "l3": 18 },
+      "architecture": "Alder Lake",
+      "lithography": 10
+    },
+    "fullSpecs": {
+      "series": "Core i5 12th Gen",
+      "releaseYear": 2022,
+      "passmarkScore": 16800,
+      "cinebenchR23Single": 1800,
+      "cinebenchR23Multi": 12600,
+      "memoryType": "DDR4-3200 / DDR5-4800",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 4.0",
+      "perf_cores": 6,
+      "eff_cores": 0,
+      "unlocked": false,
+      "note": "No integrated graphics — discrete GPU required"
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 79, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 58, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 64, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 70, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2022-01-04T00:00:00.000Z", "price": 169, "retailer": "MSRP" },
+      { "date": "2022-06-01T00:00:00.000Z", "price": 160, "retailer": "Amazon" },
+      { "date": "2023-01-01T00:00:00.000Z", "price": 145, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i3-12100",
+    "name": "Intel Core i3-12100",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 129,
+    "releaseDate": "2022-01-04T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 310,
+    "performanceScore": 48,
+    "popularity": 80,
+    "specs": {
+      "cores": 4,
+      "threads": 8,
+      "baseClock": 3.3,
+      "boostClock": 4.3,
+      "tdp": 60,
+      "socket": "LGA1700",
+      "cache": { "l1": 320, "l2": 5120, "l3": 12 },
+      "architecture": "Alder Lake",
+      "lithography": 10,
+      "integratedGraphics": "Intel UHD 730"
+    },
+    "fullSpecs": {
+      "series": "Core i3 12th Gen",
+      "releaseYear": 2022,
+      "passmarkScore": 9600,
+      "cinebenchR23Single": 1740,
+      "cinebenchR23Multi": 6400,
+      "memoryType": "DDR4-3200 / DDR5-4800",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 4.0",
+      "perf_cores": 4,
+      "eff_cores": 0,
+      "unlocked": false
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 76, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 34, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 40, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 56, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2022-01-04T00:00:00.000Z", "price": 129, "retailer": "MSRP" },
+      { "date": "2022-06-01T00:00:00.000Z", "price": 122, "retailer": "Amazon" },
+      { "date": "2023-01-01T00:00:00.000Z", "price": 109, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i9-11900k",
+    "name": "Intel Core i9-11900K",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 539,
+    "releaseDate": "2021-03-30T00:00:00.000Z",
+    "rating": 4.2,
+    "reviewCount": 180,
+    "performanceScore": 72,
+    "popularity": 65,
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": 3.5,
+      "boostClock": 5.2,
+      "tdp": 125,
+      "socket": "LGA1200",
+      "cache": { "l1": 640, "l2": 4096, "l3": 16 },
+      "architecture": "Rocket Lake",
+      "lithography": 14,
+      "integratedGraphics": "Intel UHD 750"
+    },
+    "fullSpecs": {
+      "series": "Core i9 11th Gen",
+      "releaseYear": 2021,
+      "passmarkScore": 22000,
+      "cinebenchR23Single": 1620,
+      "cinebenchR23Multi": 11200,
+      "memoryType": "DDR4-3200",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 4.0",
+      "perf_cores": 8,
+      "eff_cores": 0,
+      "unlocked": true
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 72, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 60, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 68, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 76, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2021-03-30T00:00:00.000Z", "price": 539, "retailer": "MSRP" },
+      { "date": "2021-09-01T00:00:00.000Z", "price": 512, "retailer": "Amazon" },
+      { "date": "2022-06-01T00:00:00.000Z", "price": 340, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i7-11700k",
+    "name": "Intel Core i7-11700K",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 399,
+    "releaseDate": "2021-03-30T00:00:00.000Z",
+    "rating": 4.3,
+    "reviewCount": 220,
+    "performanceScore": 68,
+    "popularity": 68,
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": 3.6,
+      "boostClock": 5.0,
+      "tdp": 125,
+      "socket": "LGA1200",
+      "cache": { "l1": 640, "l2": 4096, "l3": 16 },
+      "architecture": "Rocket Lake",
+      "lithography": 14,
+      "integratedGraphics": "Intel UHD 750"
+    },
+    "fullSpecs": {
+      "series": "Core i7 11th Gen",
+      "releaseYear": 2021,
+      "passmarkScore": 19200,
+      "cinebenchR23Single": 1580,
+      "cinebenchR23Multi": 10400,
+      "memoryType": "DDR4-3200",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 4.0",
+      "perf_cores": 8,
+      "eff_cores": 0,
+      "unlocked": true
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 70, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 56, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 64, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 72, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2021-03-30T00:00:00.000Z", "price": 399, "retailer": "MSRP" },
+      { "date": "2021-09-01T00:00:00.000Z", "price": 379, "retailer": "Amazon" },
+      { "date": "2022-06-01T00:00:00.000Z", "price": 260, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i5-11600k",
+    "name": "Intel Core i5-11600K",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 262,
+    "releaseDate": "2021-03-30T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 290,
+    "performanceScore": 60,
+    "popularity": 74,
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": 3.9,
+      "boostClock": 4.9,
+      "tdp": 125,
+      "socket": "LGA1200",
+      "cache": { "l1": 480, "l2": 3072, "l3": 12 },
+      "architecture": "Rocket Lake",
+      "lithography": 14,
+      "integratedGraphics": "Intel UHD 750"
+    },
+    "fullSpecs": {
+      "series": "Core i5 11th Gen",
+      "releaseYear": 2021,
+      "passmarkScore": 14800,
+      "cinebenchR23Single": 1560,
+      "cinebenchR23Multi": 9200,
+      "memoryType": "DDR4-3200",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 4.0",
+      "perf_cores": 6,
+      "eff_cores": 0,
+      "unlocked": true
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 68, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 50, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 56, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 64, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2021-03-30T00:00:00.000Z", "price": 262, "retailer": "MSRP" },
+      { "date": "2021-09-01T00:00:00.000Z", "price": 249, "retailer": "Amazon" },
+      { "date": "2022-06-01T00:00:00.000Z", "price": 180, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i7-10700k",
+    "name": "Intel Core i7-10700K",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 374,
+    "releaseDate": "2020-05-20T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 380,
+    "performanceScore": 62,
+    "popularity": 76,
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": 3.8,
+      "boostClock": 5.1,
+      "tdp": 125,
+      "socket": "LGA1200",
+      "cache": { "l1": 512, "l2": 2048, "l3": 16 },
+      "architecture": "Comet Lake",
+      "lithography": 14,
+      "integratedGraphics": "Intel UHD 630"
+    },
+    "fullSpecs": {
+      "series": "Core i7 10th Gen",
+      "releaseYear": 2020,
+      "passmarkScore": 16400,
+      "cinebenchR23Single": 1280,
+      "cinebenchR23Multi": 9400,
+      "memoryType": "DDR4-2933",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 3.0",
+      "perf_cores": 8,
+      "eff_cores": 0,
+      "unlocked": true
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 56, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 52, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 58, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 68, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2020-05-20T00:00:00.000Z", "price": 374, "retailer": "MSRP" },
+      { "date": "2021-01-01T00:00:00.000Z", "price": 330, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 220, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i9-10900k",
+    "name": "Intel Core i9-10900K",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 529,
+    "releaseDate": "2020-05-20T00:00:00.000Z",
+    "rating": 4.3,
+    "reviewCount": 310,
+    "performanceScore": 66,
+    "popularity": 70,
+    "specs": {
+      "cores": 10,
+      "threads": 20,
+      "baseClock": 3.7,
+      "boostClock": 5.3,
+      "tdp": 125,
+      "socket": "LGA1200",
+      "cache": { "l1": 640, "l2": 2560, "l3": 20 },
+      "architecture": "Comet Lake",
+      "lithography": 14,
+      "integratedGraphics": "Intel UHD 630"
+    },
+    "fullSpecs": {
+      "series": "Core i9 10th Gen",
+      "releaseYear": 2020,
+      "passmarkScore": 19600,
+      "cinebenchR23Single": 1260,
+      "cinebenchR23Multi": 11400,
+      "memoryType": "DDR4-2933",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 3.0",
+      "perf_cores": 10,
+      "eff_cores": 0,
+      "unlocked": true
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 55, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 60, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 63, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 70, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2020-05-20T00:00:00.000Z", "price": 529, "retailer": "MSRP" },
+      { "date": "2021-01-01T00:00:00.000Z", "price": 440, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 290, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i5-10600k",
+    "name": "Intel Core i5-10600K",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 262,
+    "releaseDate": "2020-05-20T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 350,
+    "performanceScore": 56,
+    "popularity": 74,
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": 4.1,
+      "boostClock": 4.8,
+      "tdp": 125,
+      "socket": "LGA1200",
+      "cache": { "l1": 384, "l2": 1536, "l3": 12 },
+      "architecture": "Comet Lake",
+      "lithography": 14,
+      "integratedGraphics": "Intel UHD 630"
+    },
+    "fullSpecs": {
+      "series": "Core i5 10th Gen",
+      "releaseYear": 2020,
+      "passmarkScore": 13400,
+      "cinebenchR23Single": 1240,
+      "cinebenchR23Multi": 7400,
+      "memoryType": "DDR4-2666",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 3.0",
+      "perf_cores": 6,
+      "eff_cores": 0,
+      "unlocked": true
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 54, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 44, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 52, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 62, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2020-05-20T00:00:00.000Z", "price": 262, "retailer": "MSRP" },
+      { "date": "2021-01-01T00:00:00.000Z", "price": 230, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 160, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-r9-7950x3d",
+    "name": "AMD Ryzen 9 7950X3D",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 699,
+    "releaseDate": "2023-02-28T00:00:00.000Z",
+    "rating": 4.9,
+    "reviewCount": 280,
+    "performanceScore": 99,
+    "popularity": 96,
+    "specs": {
+      "cores": 16,
+      "threads": 32,
+      "baseClock": 4.2,
+      "boostClock": 5.7,
+      "tdp": 120,
+      "socket": "AM5",
+      "cache": { "l1": 1024, "l2": 16384, "l3": 128 },
+      "architecture": "Zen 4 (3D V-Cache)",
+      "lithography": 5
+    },
+    "fullSpecs": {
+      "series": "Ryzen 9 7000X3D",
+      "releaseYear": 2023,
+      "passmarkScore": 63000,
+      "cinebenchR23Single": 2050,
+      "cinebenchR23Multi": 38000,
+      "memoryType": "DDR5-5200",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 5.0",
+      "unlocked": false,
+      "note": "128 MB 3D V-Cache — best workstation + gaming CPU"
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 90, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 97, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 100, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 98, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2023-02-28T00:00:00.000Z", "price": 699, "retailer": "MSRP" },
+      { "date": "2023-09-01T00:00:00.000Z", "price": 664, "retailer": "Amazon" },
+      { "date": "2024-03-01T00:00:00.000Z", "price": 599, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-r9-7900",
+    "name": "AMD Ryzen 9 7900",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 349,
+    "releaseDate": "2023-01-10T00:00:00.000Z",
+    "rating": 4.7,
+    "reviewCount": 190,
+    "performanceScore": 88,
+    "popularity": 80,
+    "specs": {
+      "cores": 12,
+      "threads": 24,
+      "baseClock": 3.7,
+      "boostClock": 5.4,
+      "tdp": 65,
+      "socket": "AM5",
+      "cache": { "l1": 768, "l2": 12288, "l3": 64 },
+      "architecture": "Zen 4",
+      "lithography": 5,
+      "integratedGraphics": "Radeon 610M"
+    },
+    "fullSpecs": {
+      "series": "Ryzen 9 7000",
+      "releaseYear": 2023,
+      "passmarkScore": 40000,
+      "cinebenchR23Single": 1960,
+      "cinebenchR23Multi": 29000,
+      "memoryType": "DDR5-5200",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 5.0",
+      "unlocked": false
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 86, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 88, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 88, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 86, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2023-01-10T00:00:00.000Z", "price": 349, "retailer": "MSRP" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 331, "retailer": "Amazon" },
+      { "date": "2024-01-01T00:00:00.000Z", "price": 299, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-r7-7700",
+    "name": "AMD Ryzen 7 7700",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 279,
+    "releaseDate": "2023-01-10T00:00:00.000Z",
+    "rating": 4.6,
+    "reviewCount": 220,
+    "performanceScore": 82,
+    "popularity": 82,
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": 3.8,
+      "boostClock": 5.3,
+      "tdp": 65,
+      "socket": "AM5",
+      "cache": { "l1": 512, "l2": 8192, "l3": 32 },
+      "architecture": "Zen 4",
+      "lithography": 5,
+      "integratedGraphics": "Radeon 610M"
+    },
+    "fullSpecs": {
+      "series": "Ryzen 7 7000",
+      "releaseYear": 2023,
+      "passmarkScore": 28600,
+      "cinebenchR23Single": 1960,
+      "cinebenchR23Multi": 19400,
+      "memoryType": "DDR5-5200",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 5.0",
+      "unlocked": false
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 86, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 71, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 80, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 84, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2023-01-10T00:00:00.000Z", "price": 279, "retailer": "MSRP" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 265, "retailer": "Amazon" },
+      { "date": "2024-01-01T00:00:00.000Z", "price": 239, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-r5-7500f",
+    "name": "AMD Ryzen 5 7500F",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 179,
+    "releaseDate": "2023-07-14T00:00:00.000Z",
+    "rating": 4.7,
+    "reviewCount": 340,
+    "performanceScore": 74,
+    "popularity": 92,
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": 3.7,
+      "boostClock": 5.0,
+      "tdp": 65,
+      "socket": "AM5",
+      "cache": { "l1": 384, "l2": 6144, "l3": 32 },
+      "architecture": "Zen 4",
+      "lithography": 5
+    },
+    "fullSpecs": {
+      "series": "Ryzen 5 7000",
+      "releaseYear": 2023,
+      "passmarkScore": 23200,
+      "cinebenchR23Single": 1920,
+      "cinebenchR23Multi": 15600,
+      "memoryType": "DDR5-5200",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 5.0",
+      "unlocked": false,
+      "note": "No integrated graphics — discrete GPU required"
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 84, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 62, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 72, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 80, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2023-07-14T00:00:00.000Z", "price": 179, "retailer": "MSRP" },
+      { "date": "2023-12-01T00:00:00.000Z", "price": 170, "retailer": "Amazon" },
+      { "date": "2024-06-01T00:00:00.000Z", "price": 159, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-r7-5800x",
+    "name": "AMD Ryzen 7 5800X",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 299,
+    "releaseDate": "2020-11-05T00:00:00.000Z",
+    "rating": 4.6,
+    "reviewCount": 580,
+    "performanceScore": 76,
+    "popularity": 86,
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": 3.8,
+      "boostClock": 4.7,
+      "tdp": 105,
+      "socket": "AM4",
+      "cache": { "l1": 512, "l2": 4096, "l3": 32 },
+      "architecture": "Zen 3",
+      "lithography": 7
+    },
+    "fullSpecs": {
+      "series": "Ryzen 7 5000",
+      "releaseYear": 2020,
+      "passmarkScore": 24000,
+      "cinebenchR23Single": 1620,
+      "cinebenchR23Multi": 14400,
+      "memoryType": "DDR4-3200",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 4.0",
+      "unlocked": true,
+      "note": "No integrated graphics — discrete GPU required"
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 72, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 68, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 74, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 78, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2020-11-05T00:00:00.000Z", "price": 449, "retailer": "MSRP" },
+      { "date": "2021-06-01T00:00:00.000Z", "price": 380, "retailer": "Amazon" },
+      { "date": "2022-06-01T00:00:00.000Z", "price": 299, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-r9-3950x",
+    "name": "AMD Ryzen 9 3950X",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 399,
+    "releaseDate": "2019-11-25T00:00:00.000Z",
+    "rating": 4.7,
+    "reviewCount": 420,
+    "performanceScore": 80,
+    "popularity": 78,
+    "specs": {
+      "cores": 16,
+      "threads": 32,
+      "baseClock": 3.5,
+      "boostClock": 4.7,
+      "tdp": 105,
+      "socket": "AM4",
+      "cache": { "l1": 1024, "l2": 8192, "l3": 64 },
+      "architecture": "Zen 2",
+      "lithography": 7
+    },
+    "fullSpecs": {
+      "series": "Ryzen 9 3000",
+      "releaseYear": 2019,
+      "passmarkScore": 32000,
+      "cinebenchR23Single": 1300,
+      "cinebenchR23Multi": 21000,
+      "memoryType": "DDR4-3200",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 4.0",
+      "unlocked": true
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 57, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 76, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 79, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 72, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2019-11-25T00:00:00.000Z", "price": 749, "retailer": "MSRP" },
+      { "date": "2020-06-01T00:00:00.000Z", "price": 649, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 399, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-r9-3900x",
+    "name": "AMD Ryzen 9 3900X",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 299,
+    "releaseDate": "2019-07-07T00:00:00.000Z",
+    "rating": 4.7,
+    "reviewCount": 620,
+    "performanceScore": 76,
+    "popularity": 84,
+    "specs": {
+      "cores": 12,
+      "threads": 24,
+      "baseClock": 3.8,
+      "boostClock": 4.6,
+      "tdp": 105,
+      "socket": "AM4",
+      "cache": { "l1": 768, "l2": 6144, "l3": 64 },
+      "architecture": "Zen 2",
+      "lithography": 7
+    },
+    "fullSpecs": {
+      "series": "Ryzen 9 3000",
+      "releaseYear": 2019,
+      "passmarkScore": 26600,
+      "cinebenchR23Single": 1280,
+      "cinebenchR23Multi": 16200,
+      "memoryType": "DDR4-3200",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 4.0",
+      "unlocked": true
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 56, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 66, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 74, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 70, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2019-07-07T00:00:00.000Z", "price": 499, "retailer": "MSRP" },
+      { "date": "2020-06-01T00:00:00.000Z", "price": 420, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 299, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-r7-3700x",
+    "name": "AMD Ryzen 7 3700X",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 199,
+    "releaseDate": "2019-07-07T00:00:00.000Z",
+    "rating": 4.7,
+    "reviewCount": 740,
+    "performanceScore": 64,
+    "popularity": 86,
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": 3.6,
+      "boostClock": 4.4,
+      "tdp": 65,
+      "socket": "AM4",
+      "cache": { "l1": 512, "l2": 4096, "l3": 32 },
+      "architecture": "Zen 2",
+      "lithography": 7
+    },
+    "fullSpecs": {
+      "series": "Ryzen 7 3000",
+      "releaseYear": 2019,
+      "passmarkScore": 18400,
+      "cinebenchR23Single": 1210,
+      "cinebenchR23Multi": 10600,
+      "memoryType": "DDR4-3200",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 4.0",
+      "unlocked": true
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 53, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 56, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 62, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 64, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2019-07-07T00:00:00.000Z", "price": 329, "retailer": "MSRP" },
+      { "date": "2020-06-01T00:00:00.000Z", "price": 260, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 199, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-r5-3600",
+    "name": "AMD Ryzen 5 3600",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 149,
+    "releaseDate": "2019-07-07T00:00:00.000Z",
+    "rating": 4.8,
+    "reviewCount": 1200,
+    "performanceScore": 58,
+    "popularity": 92,
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": 3.6,
+      "boostClock": 4.2,
+      "tdp": 65,
+      "socket": "AM4",
+      "cache": { "l1": 384, "l2": 3072, "l3": 32 },
+      "architecture": "Zen 2",
+      "lithography": 7
+    },
+    "fullSpecs": {
+      "series": "Ryzen 5 3000",
+      "releaseYear": 2019,
+      "passmarkScore": 14400,
+      "cinebenchR23Single": 1160,
+      "cinebenchR23Multi": 8600,
+      "memoryType": "DDR4-3200",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 4.0",
+      "unlocked": true
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 51, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 48, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 54, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 60, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2019-07-07T00:00:00.000Z", "price": 199, "retailer": "MSRP" },
+      { "date": "2020-06-01T00:00:00.000Z", "price": 180, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 149, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-r5-5600g",
+    "name": "AMD Ryzen 5 5600G",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 129,
+    "releaseDate": "2021-04-13T00:00:00.000Z",
+    "rating": 4.7,
+    "reviewCount": 460,
+    "performanceScore": 60,
+    "popularity": 88,
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": 3.9,
+      "boostClock": 4.4,
+      "tdp": 65,
+      "socket": "AM4",
+      "cache": { "l1": 384, "l2": 3072, "l3": 16 },
+      "architecture": "Zen 3",
+      "lithography": 7,
+      "integratedGraphics": "Radeon RX Vega 7"
+    },
+    "fullSpecs": {
+      "series": "Ryzen 5 5000G",
+      "releaseYear": 2021,
+      "passmarkScore": 14200,
+      "cinebenchR23Single": 1520,
+      "cinebenchR23Multi": 8800,
+      "memoryType": "DDR4-3200",
+      "maxMemory": 64,
+      "pcieVersion": "PCIe 3.0",
+      "unlocked": true,
+      "note": "APU — excellent for budget builds without discrete GPU"
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 67, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 47, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 53, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 58, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2021-04-13T00:00:00.000Z", "price": 259, "retailer": "MSRP" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 180, "retailer": "Amazon" },
+      { "date": "2023-01-01T00:00:00.000Z", "price": 129, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-r3-5300",
+    "name": "AMD Ryzen 3 5300",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 89,
+    "releaseDate": "2022-04-04T00:00:00.000Z",
+    "rating": 4.3,
+    "reviewCount": 160,
+    "performanceScore": 42,
+    "popularity": 62,
+    "specs": {
+      "cores": 4,
+      "threads": 8,
+      "baseClock": 4.0,
+      "boostClock": 4.2,
+      "tdp": 65,
+      "socket": "AM4",
+      "cache": { "l1": 256, "l2": 2048, "l3": 16 },
+      "architecture": "Zen 3",
+      "lithography": 7
+    },
+    "fullSpecs": {
+      "series": "Ryzen 3 5000",
+      "releaseYear": 2022,
+      "passmarkScore": 8400,
+      "cinebenchR23Single": 1460,
+      "cinebenchR23Multi": 5400,
+      "memoryType": "DDR4-3200",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 4.0",
+      "unlocked": false
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 64, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 30, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 36, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 50, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2022-04-04T00:00:00.000Z", "price": 149, "retailer": "MSRP" },
+      { "date": "2022-09-01T00:00:00.000Z", "price": 119, "retailer": "Amazon" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 89, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-r5-5500",
+    "name": "AMD Ryzen 5 5500",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 99,
+    "releaseDate": "2022-04-04T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 380,
+    "performanceScore": 56,
+    "popularity": 80,
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": 3.6,
+      "boostClock": 4.2,
+      "tdp": 65,
+      "socket": "AM4",
+      "cache": { "l1": 384, "l2": 3072, "l3": 16 },
+      "architecture": "Zen 3",
+      "lithography": 7
+    },
+    "fullSpecs": {
+      "series": "Ryzen 5 5000",
+      "releaseYear": 2022,
+      "passmarkScore": 12200,
+      "cinebenchR23Single": 1440,
+      "cinebenchR23Multi": 8000,
+      "memoryType": "DDR4-3200",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 3.0",
+      "unlocked": false
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 63, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 44, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 50, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 60, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2022-04-04T00:00:00.000Z", "price": 159, "retailer": "MSRP" },
+      { "date": "2022-09-01T00:00:00.000Z", "price": 129, "retailer": "Amazon" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 99, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-r7-3800x",
+    "name": "AMD Ryzen 7 3800X",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 229,
+    "releaseDate": "2019-07-07T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 340,
+    "performanceScore": 66,
+    "popularity": 74,
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": 3.9,
+      "boostClock": 4.5,
+      "tdp": 105,
+      "socket": "AM4",
+      "cache": { "l1": 512, "l2": 4096, "l3": 32 },
+      "architecture": "Zen 2",
+      "lithography": 7
+    },
+    "fullSpecs": {
+      "series": "Ryzen 7 3000",
+      "releaseYear": 2019,
+      "passmarkScore": 19800,
+      "cinebenchR23Single": 1230,
+      "cinebenchR23Multi": 11000,
+      "memoryType": "DDR4-3200",
+      "maxMemory": 128,
+      "pcieVersion": "PCIe 4.0",
+      "unlocked": true
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 54, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 58, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 65, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 66, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2019-07-07T00:00:00.000Z", "price": 399, "retailer": "MSRP" },
+      { "date": "2020-06-01T00:00:00.000Z", "price": 299, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 229, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "cpu-i5-13400f",
+    "name": "Intel Core i5-13400F",
+    "brand": "Intel",
+    "type": "CPU",
+    "price": 209,
+    "releaseDate": "2023-01-03T00:00:00.000Z",
+    "rating": 4.8,
+    "reviewCount": 490,
+    "performanceScore": 68,
+    "popularity": 95,
+    "specs": {
+      "cores": 10,
+      "threads": 16,
+      "baseClock": 2.5,
+      "boostClock": 4.6,
+      "tdp": 65,
+      "socket": "LGA1700",
+      "cache": { "l1": 864, "l2": 9728, "l3": 20 },
+      "architecture": "Raptor Lake",
+      "lithography": 10
+    },
+    "fullSpecs": {
+      "series": "Core i5 13th Gen",
+      "releaseYear": 2023,
+      "passmarkScore": 21600,
+      "cinebenchR23Single": 1900,
+      "cinebenchR23Multi": 17400,
+      "memoryType": "DDR4-3200 / DDR5-4800",
+      "maxMemory": 192,
+      "pcieVersion": "PCIe 4.0",
+      "perf_cores": 6,
+      "eff_cores": 4,
+      "unlocked": false,
+      "note": "No integrated graphics — discrete GPU required"
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 83, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 63, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 67, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 73, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2023-01-03T00:00:00.000Z", "price": 209, "retailer": "MSRP" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 198, "retailer": "Amazon" },
+      { "date": "2023-12-01T00:00:00.000Z", "price": 188, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  }
+]

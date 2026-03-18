@@ -1,0 +1,36 @@
+---
+alwaysApply: true
+---
+# CompareX Project Structure
+
+This is a mobile-first PC hardware intelligence app built with React Native (Expo) and TypeScript.
+
+## Architecture
+
+- **Atomic Design**: Components organized as atoms → molecules → organisms → screens
+- **Type Safety**: Full TypeScript coverage with strict mode
+- **Design System**: Centralized colors, typography, spacing in [src/constants](mdc:src/constants)
+- **Data Layer**: Mock data service in [src/services/dataService.ts](mdc:src/services/dataService.ts)
+
+## Key Files
+
+- **App Entry**: [App.tsx](mdc:App.tsx)
+- **Navigation**: [src/navigation/AppNavigator.tsx](mdc:src/navigation/AppNavigator.tsx)
+- **Types**: [src/types/index.ts](mdc:src/types/index.ts)
+- **Design System**: [src/constants](mdc:src/constants)
+
+## Core Modules (Priority Order)
+
+1. **Browse & Filter** - [src/screens/BrowseScreen.tsx](mdc:src/screens/BrowseScreen.tsx)
+2. **Component Detail** - [src/screens/ComponentDetailScreen.tsx](mdc:src/screens/ComponentDetailScreen.tsx)
+3. **Comparison** - [src/screens/ComparisonScreen.tsx](mdc:src/screens/ComparisonScreen.tsx)
+4. **Bottleneck Calculator** - [src/screens/BottleneckCalculatorScreen.tsx](mdc:src/screens/BottleneckCalculatorScreen.tsx)
+
+## Design Principles
+
+- Dark-first UI (default)
+- 8px base grid system
+- Zero dead ends - every screen has clear next action
+- Search always one tap away
+- Filters never require page reload
+- All charts labeled and accessible

@@ -1,0 +1,24 @@
+# ============================================================================
+# Cloudflare Worker Configuration — CompareX API Proxy
+# ============================================================================
+#
+# Setup:
+#   1. Install wrangler: npm i -g wrangler
+#   2. Login: wrangler login
+#   3. Create KV: wrangler kv:namespace create "COMPAREX_CACHE"
+#   4. Replace the KV id below with the one from step 3
+#   5. Deploy: cd workers && wrangler deploy
+#
+# Secrets (set via wrangler secret put):
+#   PRICECHARTING_API_KEY (optional)
+
+name = "comparex-api-proxy"
+main = "api-proxy.ts"
+compatibility_date = "2024-12-01"
+
+# KV Namespace binding
+# Replace <YOUR_KV_NAMESPACE_ID> after running:
+#   wrangler kv:namespace create "COMPAREX_CACHE"
+[[kv_namespaces]]
+binding = "COMPAREX_CACHE"
+id = "<YOUR_KV_NAMESPACE_ID>"

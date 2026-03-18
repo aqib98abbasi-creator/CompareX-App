@@ -1,0 +1,917 @@
+[
+  {
+    "id": "soc-apple-m1",
+    "name": "Apple M1",
+    "brand": "Other",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2020-11-17T00:00:00.000Z",
+    "rating": 4.9,
+    "reviewCount": 2400,
+    "performanceScore": 78,
+    "popularity": 92,
+    "specs": {
+      "cores": 8,
+      "threads": 8,
+      "baseClock": 3.2,
+      "boostClock": 3.2,
+      "tdp": 15,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 192, "l2": 12, "l3": 0 },
+      "architecture": "Firestorm + Icestorm",
+      "lithography": 5
+    },
+    "fullSpecs": {
+      "series": "Apple Silicon M1",
+      "releaseYear": 2020,
+      "passmarkScore": 14800,
+      "cinebenchR23Single": 1510,
+      "cinebenchR23Multi": 8750,
+      "chipType": "SoC",
+      "cpuCores": "4 performance + 4 efficiency",
+      "gpuCores": 8,
+      "neuralEngine": "16-core Neural Engine",
+      "memoryType": "LPDDR4X Unified Memory",
+      "maxMemory": 16,
+      "memorybandwidthGBs": 68.25,
+      "transisorsB": 16,
+      "note": "First Apple Silicon chip — industry-defining performance-per-watt"
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 67, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 47, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 55, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 58, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2020-11-17T00:00:00.000Z", "price": 0, "retailer": "Included with Mac" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-apple-m1-pro",
+    "name": "Apple M1 Pro",
+    "brand": "Other",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2021-10-18T00:00:00.000Z",
+    "rating": 4.9,
+    "reviewCount": 1800,
+    "performanceScore": 86,
+    "popularity": 90,
+    "specs": {
+      "cores": 10,
+      "threads": 10,
+      "baseClock": 3.2,
+      "boostClock": 3.2,
+      "tdp": 30,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 192, "l2": 24, "l3": 0 },
+      "architecture": "Firestorm + Icestorm",
+      "lithography": 5
+    },
+    "fullSpecs": {
+      "series": "Apple Silicon M1 Pro",
+      "releaseYear": 2021,
+      "passmarkScore": 18400,
+      "cinebenchR23Single": 1540,
+      "cinebenchR23Multi": 12200,
+      "chipType": "SoC",
+      "cpuCores": "8 performance + 2 efficiency",
+      "gpuCores": 16,
+      "neuralEngine": "16-core Neural Engine",
+      "memoryType": "LPDDR5 Unified Memory",
+      "maxMemory": 32,
+      "memorybandwidthGBs": 200,
+      "transisorsB": 33.7
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 68, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 62, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 65, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 62, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2021-10-18T00:00:00.000Z", "price": 0, "retailer": "Included with MacBook Pro" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-apple-m1-max",
+    "name": "Apple M1 Max",
+    "brand": "Other",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2021-10-18T00:00:00.000Z",
+    "rating": 4.9,
+    "reviewCount": 1400,
+    "performanceScore": 89,
+    "popularity": 88,
+    "specs": {
+      "cores": 10,
+      "threads": 10,
+      "baseClock": 3.2,
+      "boostClock": 3.2,
+      "tdp": 60,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 192, "l2": 24, "l3": 0 },
+      "architecture": "Firestorm + Icestorm",
+      "lithography": 5
+    },
+    "fullSpecs": {
+      "series": "Apple Silicon M1 Max",
+      "releaseYear": 2021,
+      "passmarkScore": 18600,
+      "cinebenchR23Single": 1548,
+      "cinebenchR23Multi": 12400,
+      "chipType": "SoC",
+      "cpuCores": "8 performance + 2 efficiency",
+      "gpuCores": 32,
+      "neuralEngine": "16-core Neural Engine",
+      "memoryType": "LPDDR5 Unified Memory",
+      "maxMemory": 64,
+      "memorybandwidthGBs": 400,
+      "transisorsB": 57,
+      "note": "Dual M1 Pro dies — extraordinary GPU performance for creative pro workflows"
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 68, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 63, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 66, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 64, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2021-10-18T00:00:00.000Z", "price": 0, "retailer": "Included with MacBook Pro" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-apple-m1-ultra",
+    "name": "Apple M1 Ultra",
+    "brand": "Other",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2022-03-18T00:00:00.000Z",
+    "rating": 4.9,
+    "reviewCount": 980,
+    "performanceScore": 94,
+    "popularity": 82,
+    "specs": {
+      "cores": 20,
+      "threads": 20,
+      "baseClock": 3.2,
+      "boostClock": 3.2,
+      "tdp": 215,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 384, "l2": 48, "l3": 0 },
+      "architecture": "Firestorm + Icestorm",
+      "lithography": 5
+    },
+    "fullSpecs": {
+      "series": "Apple Silicon M1 Ultra",
+      "releaseYear": 2022,
+      "passmarkScore": 28000,
+      "cinebenchR23Single": 1548,
+      "cinebenchR23Multi": 24000,
+      "chipType": "SoC",
+      "cpuCores": "16 performance + 4 efficiency",
+      "gpuCores": 64,
+      "neuralEngine": "32-core Neural Engine",
+      "memoryType": "LPDDR5 Unified Memory",
+      "maxMemory": 128,
+      "memorybandwidthGBs": 800,
+      "transisorsB": 114,
+      "note": "Two M1 Max dies bonded via UltraFusion — used in Mac Studio & Mac Pro"
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 68, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 82, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 82, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 68, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2022-03-18T00:00:00.000Z", "price": 0, "retailer": "Included with Mac Studio" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-apple-m2",
+    "name": "Apple M2",
+    "brand": "Other",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2022-06-13T00:00:00.000Z",
+    "rating": 4.9,
+    "reviewCount": 2100,
+    "performanceScore": 82,
+    "popularity": 94,
+    "specs": {
+      "cores": 8,
+      "threads": 8,
+      "baseClock": 3.49,
+      "boostClock": 3.49,
+      "tdp": 22,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 192, "l2": 16, "l3": 0 },
+      "architecture": "Avalanche + Blizzard",
+      "lithography": 5
+    },
+    "fullSpecs": {
+      "series": "Apple Silicon M2",
+      "releaseYear": 2022,
+      "passmarkScore": 15800,
+      "cinebenchR23Single": 1620,
+      "cinebenchR23Multi": 9400,
+      "chipType": "SoC",
+      "cpuCores": "4 performance + 4 efficiency",
+      "gpuCores": 10,
+      "neuralEngine": "16-core Neural Engine",
+      "memoryType": "LPDDR5 Unified Memory",
+      "maxMemory": 24,
+      "memorybandwidthGBs": 100,
+      "transisorsB": 20,
+      "note": "20% faster than M1 — available in MacBook Air and iPad Pro"
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 72, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 52, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 58, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 62, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2022-06-13T00:00:00.000Z", "price": 0, "retailer": "Included with MacBook Air" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-apple-m2-pro",
+    "name": "Apple M2 Pro",
+    "brand": "Other",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2023-01-17T00:00:00.000Z",
+    "rating": 4.9,
+    "reviewCount": 1600,
+    "performanceScore": 88,
+    "popularity": 90,
+    "specs": {
+      "cores": 12,
+      "threads": 12,
+      "baseClock": 3.49,
+      "boostClock": 3.49,
+      "tdp": 30,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 192, "l2": 32, "l3": 0 },
+      "architecture": "Avalanche + Blizzard",
+      "lithography": 5
+    },
+    "fullSpecs": {
+      "series": "Apple Silicon M2 Pro",
+      "releaseYear": 2023,
+      "passmarkScore": 21000,
+      "cinebenchR23Single": 1640,
+      "cinebenchR23Multi": 15200,
+      "chipType": "SoC",
+      "cpuCores": "8 performance + 4 efficiency",
+      "gpuCores": 19,
+      "neuralEngine": "16-core Neural Engine",
+      "memoryType": "LPDDR5 Unified Memory",
+      "maxMemory": 32,
+      "memorybandwidthGBs": 200,
+      "transisorsB": 40
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 72, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 70, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 70, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 66, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2023-01-17T00:00:00.000Z", "price": 0, "retailer": "Included with MacBook Pro" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-apple-m2-max",
+    "name": "Apple M2 Max",
+    "brand": "Other",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2023-01-17T00:00:00.000Z",
+    "rating": 4.9,
+    "reviewCount": 1200,
+    "performanceScore": 92,
+    "popularity": 86,
+    "specs": {
+      "cores": 12,
+      "threads": 12,
+      "baseClock": 3.49,
+      "boostClock": 3.49,
+      "tdp": 60,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 192, "l2": 32, "l3": 0 },
+      "architecture": "Avalanche + Blizzard",
+      "lithography": 5
+    },
+    "fullSpecs": {
+      "series": "Apple Silicon M2 Max",
+      "releaseYear": 2023,
+      "passmarkScore": 22000,
+      "cinebenchR23Single": 1652,
+      "cinebenchR23Multi": 15800,
+      "chipType": "SoC",
+      "cpuCores": "8 performance + 4 efficiency",
+      "gpuCores": 38,
+      "neuralEngine": "16-core Neural Engine",
+      "memoryType": "LPDDR5 Unified Memory",
+      "maxMemory": 96,
+      "memorybandwidthGBs": 400,
+      "transisorsB": 67
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 73, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 72, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 72, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 68, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2023-01-17T00:00:00.000Z", "price": 0, "retailer": "Included with MacBook Pro" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-apple-m3",
+    "name": "Apple M3",
+    "brand": "Other",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2023-10-30T00:00:00.000Z",
+    "rating": 4.9,
+    "reviewCount": 1800,
+    "performanceScore": 86,
+    "popularity": 92,
+    "specs": {
+      "cores": 8,
+      "threads": 8,
+      "baseClock": 4.0,
+      "boostClock": 4.0,
+      "tdp": 22,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 192, "l2": 16, "l3": 0 },
+      "architecture": "Everest + Sawtooth",
+      "lithography": 3
+    },
+    "fullSpecs": {
+      "series": "Apple Silicon M3",
+      "releaseYear": 2023,
+      "passmarkScore": 16800,
+      "cinebenchR23Single": 1870,
+      "cinebenchR23Multi": 9800,
+      "chipType": "SoC",
+      "cpuCores": "4 performance + 4 efficiency",
+      "gpuCores": 10,
+      "neuralEngine": "16-core Neural Engine",
+      "memoryType": "LPDDR5 Unified Memory",
+      "maxMemory": 24,
+      "memorybandwidthGBs": 100,
+      "transisorsB": 25,
+      "note": "First Apple SoC on 3nm — hardware mesh shading and hardware ray tracing"
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 83, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 54, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 60, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 66, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2023-10-30T00:00:00.000Z", "price": 0, "retailer": "Included with MacBook Pro / iMac" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-apple-m3-pro",
+    "name": "Apple M3 Pro",
+    "brand": "Other",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2023-10-30T00:00:00.000Z",
+    "rating": 4.9,
+    "reviewCount": 1400,
+    "performanceScore": 91,
+    "popularity": 88,
+    "specs": {
+      "cores": 12,
+      "threads": 12,
+      "baseClock": 4.05,
+      "boostClock": 4.05,
+      "tdp": 30,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 192, "l2": 36, "l3": 0 },
+      "architecture": "Everest + Sawtooth",
+      "lithography": 3
+    },
+    "fullSpecs": {
+      "series": "Apple Silicon M3 Pro",
+      "releaseYear": 2023,
+      "passmarkScore": 22400,
+      "cinebenchR23Single": 1900,
+      "cinebenchR23Multi": 15600,
+      "chipType": "SoC",
+      "cpuCores": "6 performance + 6 efficiency",
+      "gpuCores": 18,
+      "neuralEngine": "16-core Neural Engine",
+      "memoryType": "LPDDR5 Unified Memory",
+      "maxMemory": 36,
+      "memorybandwidthGBs": 150,
+      "transisorsB": 37
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 84, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 72, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 73, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 70, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2023-10-30T00:00:00.000Z", "price": 0, "retailer": "Included with MacBook Pro" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-apple-m3-max",
+    "name": "Apple M3 Max",
+    "brand": "Other",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2023-10-30T00:00:00.000Z",
+    "rating": 4.9,
+    "reviewCount": 1100,
+    "performanceScore": 95,
+    "popularity": 86,
+    "specs": {
+      "cores": 16,
+      "threads": 16,
+      "baseClock": 4.05,
+      "boostClock": 4.05,
+      "tdp": 92,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 256, "l2": 48, "l3": 0 },
+      "architecture": "Everest + Sawtooth",
+      "lithography": 3
+    },
+    "fullSpecs": {
+      "series": "Apple Silicon M3 Max",
+      "releaseYear": 2023,
+      "passmarkScore": 26600,
+      "cinebenchR23Single": 1910,
+      "cinebenchR23Multi": 21000,
+      "chipType": "SoC",
+      "cpuCores": "12 performance + 4 efficiency",
+      "gpuCores": 40,
+      "neuralEngine": "16-core Neural Engine",
+      "memoryType": "LPDDR5 Unified Memory",
+      "maxMemory": 128,
+      "memorybandwidthGBs": 400,
+      "transisorsB": 92
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 84, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 78, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 80, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 74, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2023-10-30T00:00:00.000Z", "price": 0, "retailer": "Included with MacBook Pro" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-apple-m4",
+    "name": "Apple M4",
+    "brand": "Other",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2024-05-07T00:00:00.000Z",
+    "rating": 4.9,
+    "reviewCount": 1600,
+    "performanceScore": 90,
+    "popularity": 94,
+    "specs": {
+      "cores": 10,
+      "threads": 10,
+      "baseClock": 4.4,
+      "boostClock": 4.4,
+      "tdp": 20,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 256, "l2": 16, "l3": 0 },
+      "architecture": "Spurs + Ember",
+      "lithography": 3
+    },
+    "fullSpecs": {
+      "series": "Apple Silicon M4",
+      "releaseYear": 2024,
+      "passmarkScore": 22000,
+      "cinebenchR23Single": 2130,
+      "cinebenchR23Multi": 15200,
+      "chipType": "SoC",
+      "cpuCores": "4 performance + 6 efficiency",
+      "gpuCores": 10,
+      "neuralEngine": "16-core Neural Engine",
+      "memoryType": "LPDDR5X Unified Memory",
+      "maxMemory": 32,
+      "memorybandwidthGBs": 120,
+      "transisorsB": 28,
+      "note": "Second-gen 3nm — first chip in iPad Pro M4; 50% faster neural engine than M3"
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 94, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 71, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 72, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 72, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2024-05-07T00:00:00.000Z", "price": 0, "retailer": "Included with iPad Pro / MacBook Pro" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-apple-m4-pro",
+    "name": "Apple M4 Pro",
+    "brand": "Other",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2024-11-08T00:00:00.000Z",
+    "rating": 4.9,
+    "reviewCount": 1100,
+    "performanceScore": 96,
+    "popularity": 92,
+    "specs": {
+      "cores": 14,
+      "threads": 14,
+      "baseClock": 4.4,
+      "boostClock": 4.4,
+      "tdp": 30,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 256, "l2": 40, "l3": 0 },
+      "architecture": "Spurs + Ember",
+      "lithography": 3
+    },
+    "fullSpecs": {
+      "series": "Apple Silicon M4 Pro",
+      "releaseYear": 2024,
+      "passmarkScore": 28600,
+      "cinebenchR23Single": 2150,
+      "cinebenchR23Multi": 21000,
+      "chipType": "SoC",
+      "cpuCores": "10 performance + 4 efficiency",
+      "gpuCores": 20,
+      "neuralEngine": "16-core Neural Engine",
+      "memoryType": "LPDDR5X Unified Memory",
+      "maxMemory": 64,
+      "memorybandwidthGBs": 273,
+      "transisorsB": 45
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 95, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 80, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 83, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 76, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2024-11-08T00:00:00.000Z", "price": 0, "retailer": "Included with MacBook Pro" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-apple-m4-max",
+    "name": "Apple M4 Max",
+    "brand": "Other",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2024-11-08T00:00:00.000Z",
+    "rating": 4.9,
+    "reviewCount": 820,
+    "performanceScore": 98,
+    "popularity": 88,
+    "specs": {
+      "cores": 16,
+      "threads": 16,
+      "baseClock": 4.4,
+      "boostClock": 4.4,
+      "tdp": 92,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 256, "l2": 56, "l3": 0 },
+      "architecture": "Spurs + Ember",
+      "lithography": 3
+    },
+    "fullSpecs": {
+      "series": "Apple Silicon M4 Max",
+      "releaseYear": 2024,
+      "passmarkScore": 34000,
+      "cinebenchR23Single": 2160,
+      "cinebenchR23Multi": 26000,
+      "chipType": "SoC",
+      "cpuCores": "12 performance + 4 efficiency",
+      "gpuCores": 40,
+      "neuralEngine": "16-core Neural Engine",
+      "memoryType": "LPDDR5X Unified Memory",
+      "maxMemory": 128,
+      "memorybandwidthGBs": 546,
+      "transisorsB": 92
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 95, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 86, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 90, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 80, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2024-11-08T00:00:00.000Z", "price": 0, "retailer": "Included with MacBook Pro" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-snapdragon-x-elite",
+    "name": "Qualcomm Snapdragon X Elite X1E-84-100",
+    "brand": "Other",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2024-06-18T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 680,
+    "performanceScore": 85,
+    "popularity": 78,
+    "specs": {
+      "cores": 12,
+      "threads": 12,
+      "baseClock": 3.8,
+      "boostClock": 4.3,
+      "tdp": 45,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 768, "l2": 12288, "l3": 0 },
+      "architecture": "Oryon (ARMv9)",
+      "lithography": 4
+    },
+    "fullSpecs": {
+      "series": "Snapdragon X Elite",
+      "releaseYear": 2024,
+      "passmarkScore": 17800,
+      "cinebenchR23Single": 1590,
+      "cinebenchR23Multi": 15400,
+      "chipType": "SoC",
+      "cpuCores": "12 Oryon (all performance)",
+      "gpuCores": "Adreno X1 (4.6 TFLOPS)",
+      "neuralEngine": "45 TOPS NPU",
+      "memoryType": "LPDDR5X",
+      "maxMemory": 64,
+      "memorybandwidthGBs": 136,
+      "note": "First flagship Windows-on-ARM chip — Copilot+ PC certified"
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 70, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 71, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 62, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 55, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2024-06-18T00:00:00.000Z", "price": 0, "retailer": "Included with Surface Pro / Copilot+ PCs" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-snapdragon-x-plus",
+    "name": "Qualcomm Snapdragon X Plus X1P-64-100",
+    "brand": "Other",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2024-06-18T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 480,
+    "performanceScore": 76,
+    "popularity": 72,
+    "specs": {
+      "cores": 10,
+      "threads": 10,
+      "baseClock": 3.4,
+      "boostClock": 4.0,
+      "tdp": 30,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 640, "l2": 10240, "l3": 0 },
+      "architecture": "Oryon (ARMv9)",
+      "lithography": 4
+    },
+    "fullSpecs": {
+      "series": "Snapdragon X Plus",
+      "releaseYear": 2024,
+      "passmarkScore": 14200,
+      "cinebenchR23Single": 1540,
+      "cinebenchR23Multi": 12600,
+      "chipType": "SoC",
+      "cpuCores": "10 Oryon",
+      "gpuCores": "Adreno X1 (3.8 TFLOPS)",
+      "neuralEngine": "45 TOPS NPU",
+      "memoryType": "LPDDR5X",
+      "maxMemory": 64,
+      "memorybandwidthGBs": 102,
+      "note": "Mid-range Copilot+ PC chip — excellent battery life"
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 68, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 62, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 55, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 50, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2024-06-18T00:00:00.000Z", "price": 0, "retailer": "Included with budget Copilot+ PCs" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-amd-ryzen-ai-9-hx-370",
+    "name": "AMD Ryzen AI 9 HX 370",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2024-07-14T00:00:00.000Z",
+    "rating": 4.7,
+    "reviewCount": 560,
+    "performanceScore": 87,
+    "popularity": 80,
+    "specs": {
+      "cores": 12,
+      "threads": 24,
+      "baseClock": 2.0,
+      "boostClock": 5.1,
+      "tdp": 28,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 768, "l2": 12, "l3": 24 },
+      "architecture": "Zen 5 + Zen 5c",
+      "lithography": 4,
+      "integratedGraphics": "Radeon 890M (16 CU)"
+    },
+    "fullSpecs": {
+      "series": "Ryzen AI 300 (Strix Point)",
+      "releaseYear": 2024,
+      "passmarkScore": 25400,
+      "cinebenchR23Single": 1900,
+      "cinebenchR23Multi": 19000,
+      "chipType": "SoC",
+      "cpuCores": "4 Zen 5 performance + 8 Zen 5c efficiency",
+      "gpuCores": "RDNA 3.5 (16 CU) — up to 2900 MHz",
+      "neuralEngine": "50 TOPS XDNA 2 NPU",
+      "memoryType": "LPDDR5X-7500",
+      "maxMemory": 128,
+      "note": "Fastest x86 laptop processor in 2024 — Copilot+ certified"
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 84, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 74, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 80, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 76, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2024-07-14T00:00:00.000Z", "price": 0, "retailer": "Included with Asus ROG / HP OmniBook" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-amd-ryzen-ai-9-365",
+    "name": "AMD Ryzen AI 9 365",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2024-07-14T00:00:00.000Z",
+    "rating": 4.6,
+    "reviewCount": 420,
+    "performanceScore": 82,
+    "popularity": 76,
+    "specs": {
+      "cores": 10,
+      "threads": 20,
+      "baseClock": 2.0,
+      "boostClock": 5.0,
+      "tdp": 28,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 640, "l2": 10, "l3": 24 },
+      "architecture": "Zen 5 + Zen 5c",
+      "lithography": 4,
+      "integratedGraphics": "Radeon 880M (12 CU)"
+    },
+    "fullSpecs": {
+      "series": "Ryzen AI 300 (Strix Point)",
+      "releaseYear": 2024,
+      "passmarkScore": 21800,
+      "cinebenchR23Single": 1880,
+      "cinebenchR23Multi": 16200,
+      "chipType": "SoC",
+      "cpuCores": "4 Zen 5 performance + 6 Zen 5c efficiency",
+      "gpuCores": "RDNA 3.5 (12 CU)",
+      "neuralEngine": "50 TOPS XDNA 2 NPU",
+      "memoryType": "LPDDR5X-7500",
+      "maxMemory": 128
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 83, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 68, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 74, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 72, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2024-07-14T00:00:00.000Z", "price": 0, "retailer": "Included with laptops" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-amd-ryzen-ai-7-350",
+    "name": "AMD Ryzen AI 7 350",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2024-07-14T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 310,
+    "performanceScore": 74,
+    "popularity": 70,
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": 2.0,
+      "boostClock": 4.8,
+      "tdp": 28,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 512, "l2": 8, "l3": 16 },
+      "architecture": "Zen 5 + Zen 5c",
+      "lithography": 4,
+      "integratedGraphics": "Radeon 860M (8 CU)"
+    },
+    "fullSpecs": {
+      "series": "Ryzen AI 300 (Strix Point)",
+      "releaseYear": 2024,
+      "passmarkScore": 17400,
+      "cinebenchR23Single": 1840,
+      "cinebenchR23Multi": 13200,
+      "chipType": "SoC",
+      "cpuCores": "4 Zen 5 performance + 4 Zen 5c efficiency",
+      "gpuCores": "RDNA 3.5 (8 CU)",
+      "neuralEngine": "50 TOPS XDNA 2 NPU",
+      "memoryType": "LPDDR5X-7500",
+      "maxMemory": 64
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 81, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 60, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 66, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 66, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2024-07-14T00:00:00.000Z", "price": 0, "retailer": "Included with laptops" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "soc-amd-ryzen-ai-5-340",
+    "name": "AMD Ryzen AI 5 340",
+    "brand": "AMD",
+    "type": "CPU",
+    "price": 0,
+    "releaseDate": "2024-07-14T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 220,
+    "performanceScore": 62,
+    "popularity": 62,
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": 2.0,
+      "boostClock": 4.4,
+      "tdp": 15,
+      "socket": "SoC (BGA)",
+      "cache": { "l1": 384, "l2": 6, "l3": 16 },
+      "architecture": "Zen 5 + Zen 5c",
+      "lithography": 4,
+      "integratedGraphics": "Radeon 840M (4 CU)"
+    },
+    "fullSpecs": {
+      "series": "Ryzen AI 300 (Hawk Point)",
+      "releaseYear": 2024,
+      "passmarkScore": 10200,
+      "cinebenchR23Single": 1780,
+      "cinebenchR23Multi": 8800,
+      "chipType": "SoC",
+      "cpuCores": "4 Zen 5 + 2 Zen 5c",
+      "gpuCores": "RDNA 3.5 (4 CU)",
+      "neuralEngine": "50 TOPS XDNA 2 NPU",
+      "memoryType": "LPDDR5X-6400",
+      "maxMemory": 32
+    },
+    "benchmarks": [
+      { "name": "Cinebench R23 (Single)", "score": 78, "category": "CPU", "unit": "pts" },
+      { "name": "Cinebench R23 (Multi)", "score": 46, "category": "CPU", "unit": "pts" },
+      { "name": "PassMark", "score": 50, "category": "CPU", "unit": "pts" },
+      { "name": "Gaming Index", "score": 56, "category": "CPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2024-07-14T00:00:00.000Z", "price": 0, "retailer": "Included with budget AI laptops" }
+    ],
+    "reviews": []
+  }
+]

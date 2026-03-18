@@ -1,0 +1,1309 @@
+[
+  {
+    "id": "gpu-rtx-5090",
+    "name": "NVIDIA GeForce RTX 5090",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 1999,
+    "releaseDate": "2025-01-30T00:00:00.000Z",
+    "rating": 4.8,
+    "reviewCount": 180,
+    "performanceScore": 100,
+    "popularity": 88,
+    "specs": {
+      "vram": 32,
+      "memoryType": "GDDR7",
+      "memoryBus": 512,
+      "memoryBandwidth": 1792,
+      "tdp": 575,
+      "cudaCores": 21760,
+      "baseClock": 2017,
+      "boostClock": 2407,
+      "slotSize": 3.5,
+      "pcieVersion": "PCIe 5.0"
+    },
+    "fullSpecs": {
+      "series": "RTX 50",
+      "architecture": "Blackwell",
+      "lithography": 4,
+      "releaseYear": 2025,
+      "timeSpy": 31000,
+      "tensorCores": 680,
+      "rtCores": 170,
+      "outputPorts": "3x DisplayPort 2.1b, 1x HDMI 2.1"
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 100, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 100, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 100, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 62, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2025-01-30T00:00:00.000Z", "price": 1999, "retailer": "MSRP" },
+      { "date": "2025-06-01T00:00:00.000Z", "price": 1899, "retailer": "Amazon" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rtx-5080",
+    "name": "NVIDIA GeForce RTX 5080",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 999,
+    "releaseDate": "2025-01-30T00:00:00.000Z",
+    "rating": 4.7,
+    "reviewCount": 210,
+    "performanceScore": 94,
+    "popularity": 90,
+    "specs": {
+      "vram": 16,
+      "memoryType": "GDDR7",
+      "memoryBus": 256,
+      "memoryBandwidth": 960,
+      "tdp": 360,
+      "cudaCores": 10752,
+      "baseClock": 2295,
+      "boostClock": 2617,
+      "slotSize": 3,
+      "pcieVersion": "PCIe 5.0"
+    },
+    "fullSpecs": {
+      "series": "RTX 50",
+      "architecture": "Blackwell",
+      "lithography": 4,
+      "releaseYear": 2025,
+      "timeSpy": 22400,
+      "tensorCores": 336,
+      "rtCores": 84,
+      "outputPorts": "3x DisplayPort 2.1b, 1x HDMI 2.1"
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 96, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 96, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 94, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 78, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2025-01-30T00:00:00.000Z", "price": 999, "retailer": "MSRP" },
+      { "date": "2025-06-01T00:00:00.000Z", "price": 949, "retailer": "Amazon" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rtx-3090-ti",
+    "name": "NVIDIA GeForce RTX 3090 Ti",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 699,
+    "releaseDate": "2022-03-29T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 160,
+    "performanceScore": 83,
+    "popularity": 68,
+    "specs": {
+      "vram": 24,
+      "memoryType": "GDDR6X",
+      "memoryBus": 384,
+      "memoryBandwidth": 1008,
+      "tdp": 450,
+      "cudaCores": 10752,
+      "baseClock": 1560,
+      "boostClock": 1860,
+      "slotSize": 3.5,
+      "pcieVersion": "PCIe 4.0"
+    },
+    "fullSpecs": {
+      "series": "RTX 30",
+      "architecture": "Ampere",
+      "lithography": 8,
+      "releaseYear": 2022,
+      "timeSpy": 14200,
+      "tensorCores": 336,
+      "rtCores": 84
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 82, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 86, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 76, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 58, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2022-03-29T00:00:00.000Z", "price": 1999, "retailer": "MSRP" },
+      { "date": "2022-09-01T00:00:00.000Z", "price": 1200, "retailer": "Amazon" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 699, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rtx-3080-ti",
+    "name": "NVIDIA GeForce RTX 3080 Ti",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 599,
+    "releaseDate": "2021-06-03T00:00:00.000Z",
+    "rating": 4.6,
+    "reviewCount": 260,
+    "performanceScore": 79,
+    "popularity": 76,
+    "specs": {
+      "vram": 12,
+      "memoryType": "GDDR6X",
+      "memoryBus": 384,
+      "memoryBandwidth": 912,
+      "tdp": 350,
+      "cudaCores": 10240,
+      "baseClock": 1365,
+      "boostClock": 1665,
+      "slotSize": 3,
+      "pcieVersion": "PCIe 4.0"
+    },
+    "fullSpecs": {
+      "series": "RTX 30",
+      "architecture": "Ampere",
+      "lithography": 8,
+      "releaseYear": 2021,
+      "timeSpy": 13800,
+      "tensorCores": 320,
+      "rtCores": 80
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 80, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 82, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 74, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 64, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2021-06-03T00:00:00.000Z", "price": 1199, "retailer": "MSRP" },
+      { "date": "2022-06-01T00:00:00.000Z", "price": 799, "retailer": "Amazon" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 599, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rtx-3070-ti",
+    "name": "NVIDIA GeForce RTX 3070 Ti",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 399,
+    "releaseDate": "2021-06-10T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 310,
+    "performanceScore": 73,
+    "popularity": 80,
+    "specs": {
+      "vram": 8,
+      "memoryType": "GDDR6X",
+      "memoryBus": 256,
+      "memoryBandwidth": 608,
+      "tdp": 290,
+      "cudaCores": 6144,
+      "baseClock": 1575,
+      "boostClock": 1770,
+      "slotSize": 2.5,
+      "pcieVersion": "PCIe 4.0"
+    },
+    "fullSpecs": {
+      "series": "RTX 30",
+      "architecture": "Ampere",
+      "lithography": 8,
+      "releaseYear": 2021,
+      "timeSpy": 11200,
+      "tensorCores": 192,
+      "rtCores": 48
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 70, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 74, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 62, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 70, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2021-06-10T00:00:00.000Z", "price": 599, "retailer": "MSRP" },
+      { "date": "2022-06-01T00:00:00.000Z", "price": 499, "retailer": "Amazon" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 399, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rtx-3050",
+    "name": "NVIDIA GeForce RTX 3050",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 249,
+    "releaseDate": "2022-01-27T00:00:00.000Z",
+    "rating": 4.3,
+    "reviewCount": 360,
+    "performanceScore": 47,
+    "popularity": 78,
+    "specs": {
+      "vram": 8,
+      "memoryType": "GDDR6",
+      "memoryBus": 128,
+      "memoryBandwidth": 224,
+      "tdp": 130,
+      "cudaCores": 2560,
+      "baseClock": 1552,
+      "boostClock": 1777,
+      "slotSize": 2,
+      "pcieVersion": "PCIe 4.0"
+    },
+    "fullSpecs": {
+      "series": "RTX 30",
+      "architecture": "Ampere",
+      "lithography": 8,
+      "releaseYear": 2022,
+      "timeSpy": 6100,
+      "tensorCores": 80,
+      "rtCores": 20
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 46, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 50, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 34, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 86, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2022-01-27T00:00:00.000Z", "price": 249, "retailer": "MSRP" },
+      { "date": "2022-09-01T00:00:00.000Z", "price": 236, "retailer": "Amazon" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 199, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rtx-3080-12gb",
+    "name": "NVIDIA GeForce RTX 3080 12GB",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 549,
+    "releaseDate": "2022-01-11T00:00:00.000Z",
+    "rating": 4.6,
+    "reviewCount": 200,
+    "performanceScore": 78,
+    "popularity": 74,
+    "specs": {
+      "vram": 12,
+      "memoryType": "GDDR6X",
+      "memoryBus": 384,
+      "memoryBandwidth": 912,
+      "tdp": 350,
+      "cudaCores": 8960,
+      "baseClock": 1260,
+      "boostClock": 1710,
+      "slotSize": 3,
+      "pcieVersion": "PCIe 4.0"
+    },
+    "fullSpecs": {
+      "series": "RTX 30",
+      "architecture": "Ampere",
+      "lithography": 8,
+      "releaseYear": 2022,
+      "timeSpy": 13400,
+      "tensorCores": 280,
+      "rtCores": 70
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 76, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 80, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 66, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 62, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2022-01-11T00:00:00.000Z", "price": 799, "retailer": "MSRP" },
+      { "date": "2022-09-01T00:00:00.000Z", "price": 699, "retailer": "Amazon" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 549, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rtx-2080-ti",
+    "name": "NVIDIA GeForce RTX 2080 Ti",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 449,
+    "releaseDate": "2018-09-27T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 480,
+    "performanceScore": 64,
+    "popularity": 70,
+    "specs": {
+      "vram": 11,
+      "memoryType": "GDDR6",
+      "memoryBus": 352,
+      "memoryBandwidth": 616,
+      "tdp": 250,
+      "cudaCores": 4352,
+      "baseClock": 1350,
+      "boostClock": 1545,
+      "slotSize": 2.5,
+      "pcieVersion": "PCIe 3.0"
+    },
+    "fullSpecs": {
+      "series": "RTX 20",
+      "architecture": "Turing",
+      "lithography": 12,
+      "releaseYear": 2018,
+      "timeSpy": 10600,
+      "tensorCores": 544,
+      "rtCores": 68
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 63, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 68, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 52, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 60, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2018-09-27T00:00:00.000Z", "price": 1199, "retailer": "MSRP" },
+      { "date": "2020-01-01T00:00:00.000Z", "price": 899, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 449, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rtx-2080-super",
+    "name": "NVIDIA GeForce RTX 2080 Super",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 349,
+    "releaseDate": "2019-07-23T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 320,
+    "performanceScore": 59,
+    "popularity": 68,
+    "specs": {
+      "vram": 8,
+      "memoryType": "GDDR6",
+      "memoryBus": 256,
+      "memoryBandwidth": 496,
+      "tdp": 250,
+      "cudaCores": 3072,
+      "baseClock": 1650,
+      "boostClock": 1815,
+      "slotSize": 2.5,
+      "pcieVersion": "PCIe 3.0"
+    },
+    "fullSpecs": {
+      "series": "RTX 20",
+      "architecture": "Turing",
+      "lithography": 12,
+      "releaseYear": 2019,
+      "timeSpy": 9400,
+      "tensorCores": 384,
+      "rtCores": 48
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 57, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 62, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 46, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 62, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2019-07-23T00:00:00.000Z", "price": 699, "retailer": "MSRP" },
+      { "date": "2020-06-01T00:00:00.000Z", "price": 599, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 349, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rtx-2080",
+    "name": "NVIDIA GeForce RTX 2080",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 299,
+    "releaseDate": "2018-09-20T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 360,
+    "performanceScore": 55,
+    "popularity": 64,
+    "specs": {
+      "vram": 8,
+      "memoryType": "GDDR6",
+      "memoryBus": 256,
+      "memoryBandwidth": 448,
+      "tdp": 215,
+      "cudaCores": 2944,
+      "baseClock": 1515,
+      "boostClock": 1710,
+      "slotSize": 2.5,
+      "pcieVersion": "PCIe 3.0"
+    },
+    "fullSpecs": {
+      "series": "RTX 20",
+      "architecture": "Turing",
+      "lithography": 12,
+      "releaseYear": 2018,
+      "timeSpy": 8600,
+      "tensorCores": 368,
+      "rtCores": 46
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 53, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 58, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 42, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 66, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2018-09-20T00:00:00.000Z", "price": 799, "retailer": "MSRP" },
+      { "date": "2020-06-01T00:00:00.000Z", "price": 549, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 299, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rtx-2070-super",
+    "name": "NVIDIA GeForce RTX 2070 Super",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 279,
+    "releaseDate": "2019-07-09T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 390,
+    "performanceScore": 53,
+    "popularity": 72,
+    "specs": {
+      "vram": 8,
+      "memoryType": "GDDR6",
+      "memoryBus": 256,
+      "memoryBandwidth": 448,
+      "tdp": 215,
+      "cudaCores": 2560,
+      "baseClock": 1605,
+      "boostClock": 1770,
+      "slotSize": 2.5,
+      "pcieVersion": "PCIe 3.0"
+    },
+    "fullSpecs": {
+      "series": "RTX 20",
+      "architecture": "Turing",
+      "lithography": 12,
+      "releaseYear": 2019,
+      "timeSpy": 8200,
+      "tensorCores": 320,
+      "rtCores": 40
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 50, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 55, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 40, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 68, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2019-07-09T00:00:00.000Z", "price": 499, "retailer": "MSRP" },
+      { "date": "2020-06-01T00:00:00.000Z", "price": 430, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 279, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rtx-2070",
+    "name": "NVIDIA GeForce RTX 2070",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 249,
+    "releaseDate": "2018-10-17T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 340,
+    "performanceScore": 49,
+    "popularity": 66,
+    "specs": {
+      "vram": 8,
+      "memoryType": "GDDR6",
+      "memoryBus": 256,
+      "memoryBandwidth": 448,
+      "tdp": 175,
+      "cudaCores": 2304,
+      "baseClock": 1410,
+      "boostClock": 1620,
+      "slotSize": 2.5,
+      "pcieVersion": "PCIe 3.0"
+    },
+    "fullSpecs": {
+      "series": "RTX 20",
+      "architecture": "Turing",
+      "lithography": 12,
+      "releaseYear": 2018,
+      "timeSpy": 7200,
+      "tensorCores": 288,
+      "rtCores": 36
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 45, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 50, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 36, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 72, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2018-10-17T00:00:00.000Z", "price": 499, "retailer": "MSRP" },
+      { "date": "2020-06-01T00:00:00.000Z", "price": 399, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 249, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rtx-2060-super",
+    "name": "NVIDIA GeForce RTX 2060 Super",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 229,
+    "releaseDate": "2019-07-09T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 410,
+    "performanceScore": 45,
+    "popularity": 70,
+    "specs": {
+      "vram": 8,
+      "memoryType": "GDDR6",
+      "memoryBus": 256,
+      "memoryBandwidth": 448,
+      "tdp": 175,
+      "cudaCores": 2176,
+      "baseClock": 1470,
+      "boostClock": 1650,
+      "slotSize": 2,
+      "pcieVersion": "PCIe 3.0"
+    },
+    "fullSpecs": {
+      "series": "RTX 20",
+      "architecture": "Turing",
+      "lithography": 12,
+      "releaseYear": 2019,
+      "timeSpy": 7000,
+      "tensorCores": 272,
+      "rtCores": 34
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 43, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 47, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 34, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 72, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2019-07-09T00:00:00.000Z", "price": 399, "retailer": "MSRP" },
+      { "date": "2020-06-01T00:00:00.000Z", "price": 350, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 229, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rtx-2060",
+    "name": "NVIDIA GeForce RTX 2060",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 199,
+    "releaseDate": "2019-01-15T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 520,
+    "performanceScore": 40,
+    "popularity": 72,
+    "specs": {
+      "vram": 6,
+      "memoryType": "GDDR6",
+      "memoryBus": 192,
+      "memoryBandwidth": 336,
+      "tdp": 160,
+      "cudaCores": 1920,
+      "baseClock": 1365,
+      "boostClock": 1680,
+      "slotSize": 2,
+      "pcieVersion": "PCIe 3.0"
+    },
+    "fullSpecs": {
+      "series": "RTX 20",
+      "architecture": "Turing",
+      "lithography": 12,
+      "releaseYear": 2019,
+      "timeSpy": 6200,
+      "tensorCores": 240,
+      "rtCores": 30
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 38, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 42, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 30, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 76, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2019-01-15T00:00:00.000Z", "price": 349, "retailer": "MSRP" },
+      { "date": "2020-06-01T00:00:00.000Z", "price": 299, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 199, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-gtx-1080-ti",
+    "name": "NVIDIA GeForce GTX 1080 Ti",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 199,
+    "releaseDate": "2017-03-10T00:00:00.000Z",
+    "rating": 4.6,
+    "reviewCount": 680,
+    "performanceScore": 36,
+    "popularity": 62,
+    "specs": {
+      "vram": 11,
+      "memoryType": "GDDR5X",
+      "memoryBus": 352,
+      "memoryBandwidth": 484,
+      "tdp": 250,
+      "cudaCores": 3584,
+      "baseClock": 1480,
+      "boostClock": 1582,
+      "slotSize": 2.5,
+      "pcieVersion": "PCIe 3.0"
+    },
+    "fullSpecs": {
+      "series": "GTX 10",
+      "architecture": "Pascal",
+      "lithography": 16,
+      "releaseYear": 2017,
+      "timeSpy": 6800,
+      "tensorCores": 0,
+      "rtCores": 0,
+      "note": "No hardware ray tracing"
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 34, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 38, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 0, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 54, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2017-03-10T00:00:00.000Z", "price": 699, "retailer": "MSRP" },
+      { "date": "2019-01-01T00:00:00.000Z", "price": 499, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 199, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-gtx-1080",
+    "name": "NVIDIA GeForce GTX 1080",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 159,
+    "releaseDate": "2016-05-27T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 760,
+    "performanceScore": 30,
+    "popularity": 56,
+    "specs": {
+      "vram": 8,
+      "memoryType": "GDDR5X",
+      "memoryBus": 256,
+      "memoryBandwidth": 320,
+      "tdp": 180,
+      "cudaCores": 2560,
+      "baseClock": 1607,
+      "boostClock": 1733,
+      "slotSize": 2.5,
+      "pcieVersion": "PCIe 3.0"
+    },
+    "fullSpecs": {
+      "series": "GTX 10",
+      "architecture": "Pascal",
+      "lithography": 16,
+      "releaseYear": 2016,
+      "timeSpy": 5400,
+      "tensorCores": 0,
+      "rtCores": 0,
+      "note": "No hardware ray tracing"
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 28, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 32, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 0, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 60, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2016-05-27T00:00:00.000Z", "price": 599, "retailer": "MSRP" },
+      { "date": "2018-01-01T00:00:00.000Z", "price": 400, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 159, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-gtx-1070",
+    "name": "NVIDIA GeForce GTX 1070",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 129,
+    "releaseDate": "2016-06-10T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 820,
+    "performanceScore": 26,
+    "popularity": 54,
+    "specs": {
+      "vram": 8,
+      "memoryType": "GDDR5",
+      "memoryBus": 256,
+      "memoryBandwidth": 256,
+      "tdp": 150,
+      "cudaCores": 1920,
+      "baseClock": 1506,
+      "boostClock": 1683,
+      "slotSize": 2,
+      "pcieVersion": "PCIe 3.0"
+    },
+    "fullSpecs": {
+      "series": "GTX 10",
+      "architecture": "Pascal",
+      "lithography": 16,
+      "releaseYear": 2016,
+      "timeSpy": 4400,
+      "tensorCores": 0,
+      "rtCores": 0,
+      "note": "No hardware ray tracing"
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 24, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 28, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 0, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 64, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2016-06-10T00:00:00.000Z", "price": 379, "retailer": "MSRP" },
+      { "date": "2018-01-01T00:00:00.000Z", "price": 280, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 129, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-gtx-1060-6gb",
+    "name": "NVIDIA GeForce GTX 1060 6GB",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 99,
+    "releaseDate": "2016-07-19T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 1100,
+    "performanceScore": 20,
+    "popularity": 60,
+    "specs": {
+      "vram": 6,
+      "memoryType": "GDDR5",
+      "memoryBus": 192,
+      "memoryBandwidth": 192,
+      "tdp": 120,
+      "cudaCores": 1280,
+      "baseClock": 1506,
+      "boostClock": 1708,
+      "slotSize": 2,
+      "pcieVersion": "PCIe 3.0"
+    },
+    "fullSpecs": {
+      "series": "GTX 10",
+      "architecture": "Pascal",
+      "lithography": 16,
+      "releaseYear": 2016,
+      "timeSpy": 3200,
+      "tensorCores": 0,
+      "rtCores": 0,
+      "note": "No hardware ray tracing"
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 18, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 22, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 0, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 78, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2016-07-19T00:00:00.000Z", "price": 249, "retailer": "MSRP" },
+      { "date": "2018-01-01T00:00:00.000Z", "price": 180, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 99, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rx-5700-xt",
+    "name": "AMD Radeon RX 5700 XT",
+    "brand": "AMD",
+    "type": "GPU",
+    "price": 249,
+    "releaseDate": "2019-07-07T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 480,
+    "performanceScore": 44,
+    "popularity": 68,
+    "specs": {
+      "vram": 8,
+      "memoryType": "GDDR6",
+      "memoryBus": 256,
+      "memoryBandwidth": 448,
+      "tdp": 225,
+      "streamProcessors": 2560,
+      "baseClock": 1605,
+      "boostClock": 1905,
+      "slotSize": 2.5,
+      "pcieVersion": "PCIe 4.0"
+    },
+    "fullSpecs": {
+      "series": "RX 5000",
+      "architecture": "RDNA 1",
+      "lithography": 7,
+      "releaseYear": 2019,
+      "timeSpy": 7600,
+      "computeUnits": 40,
+      "note": "No hardware ray tracing on RDNA 1"
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 42, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 46, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 0, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 58, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2019-07-07T00:00:00.000Z", "price": 399, "retailer": "MSRP" },
+      { "date": "2020-06-01T00:00:00.000Z", "price": 320, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 249, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rx-5700",
+    "name": "AMD Radeon RX 5700",
+    "brand": "AMD",
+    "type": "GPU",
+    "price": 199,
+    "releaseDate": "2019-07-07T00:00:00.000Z",
+    "rating": 4.3,
+    "reviewCount": 360,
+    "performanceScore": 40,
+    "popularity": 62,
+    "specs": {
+      "vram": 8,
+      "memoryType": "GDDR6",
+      "memoryBus": 256,
+      "memoryBandwidth": 448,
+      "tdp": 180,
+      "streamProcessors": 2304,
+      "baseClock": 1465,
+      "boostClock": 1725,
+      "slotSize": 2,
+      "pcieVersion": "PCIe 4.0"
+    },
+    "fullSpecs": {
+      "series": "RX 5000",
+      "architecture": "RDNA 1",
+      "lithography": 7,
+      "releaseYear": 2019,
+      "timeSpy": 6800,
+      "computeUnits": 36
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 38, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 42, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 0, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 62, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2019-07-07T00:00:00.000Z", "price": 349, "retailer": "MSRP" },
+      { "date": "2020-06-01T00:00:00.000Z", "price": 280, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 199, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rx-6800",
+    "name": "AMD Radeon RX 6800",
+    "brand": "AMD",
+    "type": "GPU",
+    "price": 399,
+    "releaseDate": "2020-11-18T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 290,
+    "performanceScore": 72,
+    "popularity": 74,
+    "specs": {
+      "vram": 16,
+      "memoryType": "GDDR6",
+      "memoryBus": 256,
+      "memoryBandwidth": 512,
+      "tdp": 250,
+      "streamProcessors": 3840,
+      "baseClock": 1700,
+      "boostClock": 2105,
+      "slotSize": 2.5,
+      "pcieVersion": "PCIe 4.0"
+    },
+    "fullSpecs": {
+      "series": "RX 6000",
+      "architecture": "RDNA 2",
+      "lithography": 7,
+      "releaseYear": 2020,
+      "timeSpy": 11200,
+      "computeUnits": 60,
+      "infinityCache": 128
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 70, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 74, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 44, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 72, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2020-11-18T00:00:00.000Z", "price": 579, "retailer": "MSRP" },
+      { "date": "2021-06-01T00:00:00.000Z", "price": 520, "retailer": "Amazon" },
+      { "date": "2022-09-01T00:00:00.000Z", "price": 399, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rx-6750-xt",
+    "name": "AMD Radeon RX 6750 XT",
+    "brand": "AMD",
+    "type": "GPU",
+    "price": 349,
+    "releaseDate": "2022-05-10T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 210,
+    "performanceScore": 64,
+    "popularity": 68,
+    "specs": {
+      "vram": 12,
+      "memoryType": "GDDR6",
+      "memoryBus": 192,
+      "memoryBandwidth": 432,
+      "tdp": 250,
+      "streamProcessors": 2560,
+      "baseClock": 2150,
+      "boostClock": 2600,
+      "slotSize": 2.5,
+      "pcieVersion": "PCIe 4.0"
+    },
+    "fullSpecs": {
+      "series": "RX 6000",
+      "architecture": "RDNA 2",
+      "lithography": 7,
+      "releaseYear": 2022,
+      "timeSpy": 9600,
+      "computeUnits": 40,
+      "infinityCache": 96
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 62, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 66, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 40, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 68, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2022-05-10T00:00:00.000Z", "price": 549, "retailer": "MSRP" },
+      { "date": "2022-09-01T00:00:00.000Z", "price": 449, "retailer": "Amazon" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 349, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rx-6600-xt",
+    "name": "AMD Radeon RX 6600 XT",
+    "brand": "AMD",
+    "type": "GPU",
+    "price": 259,
+    "releaseDate": "2021-08-11T00:00:00.000Z",
+    "rating": 4.4,
+    "reviewCount": 370,
+    "performanceScore": 56,
+    "popularity": 74,
+    "specs": {
+      "vram": 8,
+      "memoryType": "GDDR6",
+      "memoryBus": 128,
+      "memoryBandwidth": 256,
+      "tdp": 160,
+      "streamProcessors": 2048,
+      "baseClock": 2359,
+      "boostClock": 2589,
+      "slotSize": 2,
+      "pcieVersion": "PCIe 4.0"
+    },
+    "fullSpecs": {
+      "series": "RX 6000",
+      "architecture": "RDNA 2",
+      "lithography": 7,
+      "releaseYear": 2021,
+      "timeSpy": 8200,
+      "computeUnits": 32,
+      "infinityCache": 32
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 54, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 58, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 34, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 80, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2021-08-11T00:00:00.000Z", "price": 379, "retailer": "MSRP" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 320, "retailer": "Amazon" },
+      { "date": "2023-01-01T00:00:00.000Z", "price": 259, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rx-6600",
+    "name": "AMD Radeon RX 6600",
+    "brand": "AMD",
+    "type": "GPU",
+    "price": 199,
+    "releaseDate": "2021-10-13T00:00:00.000Z",
+    "rating": 4.3,
+    "reviewCount": 310,
+    "performanceScore": 50,
+    "popularity": 68,
+    "specs": {
+      "vram": 8,
+      "memoryType": "GDDR6",
+      "memoryBus": 128,
+      "memoryBandwidth": 224,
+      "tdp": 132,
+      "streamProcessors": 1792,
+      "baseClock": 2044,
+      "boostClock": 2491,
+      "slotSize": 2,
+      "pcieVersion": "PCIe 4.0"
+    },
+    "fullSpecs": {
+      "series": "RX 6000",
+      "architecture": "RDNA 2",
+      "lithography": 7,
+      "releaseYear": 2021,
+      "timeSpy": 7200,
+      "computeUnits": 28,
+      "infinityCache": 32
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 48, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 52, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 30, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 84, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2021-10-13T00:00:00.000Z", "price": 329, "retailer": "MSRP" },
+      { "date": "2022-06-01T00:00:00.000Z", "price": 280, "retailer": "Amazon" },
+      { "date": "2023-01-01T00:00:00.000Z", "price": 199, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rx-580",
+    "name": "AMD Radeon RX 580 8GB",
+    "brand": "AMD",
+    "type": "GPU",
+    "price": 89,
+    "releaseDate": "2017-04-18T00:00:00.000Z",
+    "rating": 4.3,
+    "reviewCount": 980,
+    "performanceScore": 18,
+    "popularity": 58,
+    "specs": {
+      "vram": 8,
+      "memoryType": "GDDR5",
+      "memoryBus": 256,
+      "memoryBandwidth": 256,
+      "tdp": 185,
+      "streamProcessors": 2304,
+      "baseClock": 1257,
+      "boostClock": 1340,
+      "slotSize": 2,
+      "pcieVersion": "PCIe 3.0"
+    },
+    "fullSpecs": {
+      "series": "RX 500",
+      "architecture": "Polaris (GCN 4)",
+      "lithography": 14,
+      "releaseYear": 2017,
+      "timeSpy": 2900,
+      "computeUnits": 36,
+      "note": "No hardware ray tracing"
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 16, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 20, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 0, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 42, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2017-04-18T00:00:00.000Z", "price": 199, "retailer": "MSRP" },
+      { "date": "2019-01-01T00:00:00.000Z", "price": 160, "retailer": "Amazon" },
+      { "date": "2022-01-01T00:00:00.000Z", "price": 89, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-arc-a380",
+    "name": "Intel Arc A380",
+    "brand": "Intel",
+    "type": "GPU",
+    "price": 129,
+    "releaseDate": "2022-06-01T00:00:00.000Z",
+    "rating": 3.8,
+    "reviewCount": 140,
+    "performanceScore": 16,
+    "popularity": 38,
+    "specs": {
+      "vram": 6,
+      "memoryType": "GDDR6",
+      "memoryBus": 96,
+      "memoryBandwidth": 186,
+      "tdp": 75,
+      "baseClock": 2000,
+      "boostClock": 2450,
+      "slotSize": 2,
+      "pcieVersion": "PCIe 4.0"
+    },
+    "fullSpecs": {
+      "series": "Arc A-Series",
+      "architecture": "Xe-HPG (Alchemist)",
+      "lithography": 6,
+      "releaseYear": 2022,
+      "timeSpy": 3600,
+      "xeCorCount": 8,
+      "rayTracingUnits": 8,
+      "note": "Entry-level Arc GPU — best value in budget segment"
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 14, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 16, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 12, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 88, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2022-06-01T00:00:00.000Z", "price": 139, "retailer": "MSRP" },
+      { "date": "2022-12-01T00:00:00.000Z", "price": 129, "retailer": "Amazon" },
+      { "date": "2023-06-01T00:00:00.000Z", "price": 99, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-arc-a750",
+    "name": "Intel Arc A750 8GB",
+    "brand": "Intel",
+    "type": "GPU",
+    "price": 249,
+    "releaseDate": "2022-10-12T00:00:00.000Z",
+    "rating": 4.0,
+    "reviewCount": 180,
+    "performanceScore": 43,
+    "popularity": 52,
+    "specs": {
+      "vram": 8,
+      "memoryType": "GDDR6",
+      "memoryBus": 128,
+      "memoryBandwidth": 512,
+      "tdp": 225,
+      "baseClock": 2050,
+      "boostClock": 2400,
+      "slotSize": 2,
+      "pcieVersion": "PCIe 4.0"
+    },
+    "fullSpecs": {
+      "series": "Arc A-Series",
+      "architecture": "Xe-HPG (Alchemist)",
+      "lithography": 6,
+      "releaseYear": 2022,
+      "timeSpy": 7100,
+      "xeCoreCount": 28,
+      "rayTracingUnits": 28
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 41, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 44, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 38, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 58, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2022-10-12T00:00:00.000Z", "price": 289, "retailer": "MSRP" },
+      { "date": "2023-01-01T00:00:00.000Z", "price": 269, "retailer": "Amazon" },
+      { "date": "2023-09-01T00:00:00.000Z", "price": 249, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-arc-b580",
+    "name": "Intel Arc B580 12GB",
+    "brand": "Intel",
+    "type": "GPU",
+    "price": 249,
+    "releaseDate": "2024-12-05T00:00:00.000Z",
+    "rating": 4.5,
+    "reviewCount": 260,
+    "performanceScore": 57,
+    "popularity": 74,
+    "specs": {
+      "vram": 12,
+      "memoryType": "GDDR6",
+      "memoryBus": 192,
+      "memoryBandwidth": 456,
+      "tdp": 190,
+      "baseClock": 2670,
+      "boostClock": 2670,
+      "slotSize": 2,
+      "pcieVersion": "PCIe 4.0"
+    },
+    "fullSpecs": {
+      "series": "Arc B-Series",
+      "architecture": "Xe2-HPG (Battlemage)",
+      "lithography": 5,
+      "releaseYear": 2024,
+      "timeSpy": 10200,
+      "xeCoreCount": 20,
+      "rayTracingUnits": 20,
+      "note": "Best price-to-performance GPU in 2024 under $300"
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 55, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 60, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 52, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 88, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2024-12-05T00:00:00.000Z", "price": 249, "retailer": "MSRP" },
+      { "date": "2025-03-01T00:00:00.000Z", "price": 249, "retailer": "Amazon" }
+    ],
+    "reviews": []
+  },
+  {
+    "id": "gpu-rtx-4060-ti-16gb",
+    "name": "NVIDIA GeForce RTX 4060 Ti 16GB",
+    "brand": "NVIDIA",
+    "type": "GPU",
+    "price": 499,
+    "releaseDate": "2023-07-18T00:00:00.000Z",
+    "rating": 4.1,
+    "reviewCount": 180,
+    "performanceScore": 63,
+    "popularity": 66,
+    "specs": {
+      "vram": 16,
+      "memoryType": "GDDR6",
+      "memoryBus": 128,
+      "memoryBandwidth": 288,
+      "tdp": 165,
+      "cudaCores": 4352,
+      "baseClock": 2310,
+      "boostClock": 2535,
+      "slotSize": 2,
+      "pcieVersion": "PCIe 4.0"
+    },
+    "fullSpecs": {
+      "series": "RTX 40",
+      "architecture": "Ada Lovelace",
+      "lithography": 4,
+      "releaseYear": 2023,
+      "timeSpy": 10000,
+      "tensorCores": 136,
+      "rtCores": 34,
+      "note": "16 GB VRAM — useful for AI/ML workloads at this price point"
+    },
+    "benchmarks": [
+      { "name": "3DMark Time Spy", "score": 61, "category": "GPU", "unit": "pts" },
+      { "name": "Rasterization", "score": 64, "category": "GPU", "unit": "index" },
+      { "name": "Ray Tracing", "score": 56, "category": "GPU", "unit": "index" },
+      { "name": "Power Efficiency", "score": 92, "category": "GPU", "unit": "index" }
+    ],
+    "priceHistory": [
+      { "date": "2023-07-18T00:00:00.000Z", "price": 499, "retailer": "MSRP" },
+      { "date": "2023-12-01T00:00:00.000Z", "price": 474, "retailer": "Amazon" },
+      { "date": "2024-06-01T00:00:00.000Z", "price": 449, "retailer": "Newegg" }
+    ],
+    "reviews": []
+  }
+]
