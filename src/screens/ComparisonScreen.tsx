@@ -272,6 +272,8 @@ export function ComparisonScreen() {
             const bmDiff = bm.valueB > 0 ? ((bm.valueA - bm.valueB) / bm.valueB) * 100 : 0;
             const bmDiffSign = bmDiff >= 0 ? '+' : '';
             const bmDiffColor = bmDiff >= 0 ? colors.accent.green : colors.accent.orange;
+            const aColor = getBrandColor(partA.brand);
+            const bColor = getBrandColor(partB.brand);
 
             return (
               <View key={bm.label} style={styles.bmGroup}>
@@ -290,7 +292,7 @@ export function ComparisonScreen() {
                     style={[
                       styles.bmBar,
                       {
-                        backgroundColor: colors.accent.blue,
+                        backgroundColor: aColor,
                         width: barAnim.interpolate({
                           inputRange: [0, 1],
                           outputRange: ['0%', `${pctA * 100}%`],
@@ -308,7 +310,7 @@ export function ComparisonScreen() {
                     style={[
                       styles.bmBar,
                       {
-                        backgroundColor: colors.accent.orange,
+                        backgroundColor: bColor,
                         width: barAnim.interpolate({
                           inputRange: [0, 1],
                           outputRange: ['0%', `${pctB * 100}%`],

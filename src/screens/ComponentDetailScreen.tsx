@@ -186,8 +186,8 @@ function specRows(component: Component): Array<{ label: string; value: string; s
 
 /* ─── animated benchmark bar ─────────────────── */
 
-function BenchmarkBar({ label, score, maxScore = 100, delay = 0 }: {
-  label: string; score: number; maxScore?: number; delay?: number;
+function BenchmarkBar({ label, score, maxScore = 100, delay = 0, fillColor }: {
+  label: string; score: number; maxScore?: number; delay?: number; fillColor: string;
 }) {
   const widthAnim = useRef(new Animated.Value(0)).current;
 
@@ -217,7 +217,7 @@ function BenchmarkBar({ label, score, maxScore = 100, delay = 0 }: {
                 inputRange: [0, 1],
                 outputRange: ['0%', '100%'],
               }),
-              backgroundColor: getScoreColor(pct),
+              backgroundColor: fillColor,
             },
           ]}
         />
@@ -332,6 +332,7 @@ export function ComponentDetailScreen() {
                 score={bench.score}
                 maxScore={100}
                 delay={idx * 80}
+                fillColor={brandColor}
               />
             ))}
           </View>
