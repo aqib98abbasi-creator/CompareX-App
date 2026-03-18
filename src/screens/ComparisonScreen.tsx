@@ -283,7 +283,8 @@ export function ComparisonScreen() {
             const aColor = getBrandColor(partA.brand);
             const sameBrand = partA.brand === partB.brand;
             // If both are the same brand, make B visually distinct while staying \"on-brand\"
-            const bColor = sameBrand ? withAlpha(aColor, 0.55) : getBrandColor(partB.brand);
+            // Lower alpha → darker on our dark UI background
+            const bColor = sameBrand ? withAlpha(aColor, 0.35) : getBrandColor(partB.brand);
             const bOutline = sameBrand ? aColor : 'transparent';
 
             return (
