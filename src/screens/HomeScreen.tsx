@@ -17,7 +17,7 @@ import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { Ionicons } from '@expo/vector-icons';
 import { Text, ComponentCard } from '../components';
-import { colors, getScoreColor } from '../constants/colors';
+import { colors, getScoreColor, brandColors, BRANDS_BY_TYPE } from '../constants/colors';
 import { spacing, borderRadius } from '../constants/spacing';
 import { RootStackParamList } from '../navigation/types';
 import { Component } from '../types';
@@ -249,6 +249,7 @@ export function HomeScreen() {
       <View style={styles.catRow}>
         {CATEGORIES.map(({ label, type, icon }) => {
           const isActive = activeCategory === type;
+          const topBrands = (BRANDS_BY_TYPE[type] ?? []).slice(0, 3);
           return (
             <TouchableOpacity
               key={label}
@@ -269,6 +270,18 @@ export function HomeScreen() {
               >
                 {label}
               </Text>
+              {/* Brand dots row */}
+              <View style={styles.catBrandDots}>
+                {topBrands.map((brand) => (
+                  <View
+                    key={brand}
+                    style={[
+                      styles.catBrandDot,
+                      { backgroundColor: brandColors[brand] ?? colors.text.secondary },
+                    ]}
+                  />
+                ))}
+              </View>
             </TouchableOpacity>
           );
         })}
@@ -935,6 +948,16 @@ const styles = StyleSheet.create({
   },
   catLabel: {
     letterSpacing: 1,
+  },
+  catBrandDots: {
+    flexDirection: 'row',
+    marginTop: 5,
+    gap: 4,
+  },
+  catBrandDot: {
+    width: 6,
+    height: 6,
+    borderRadius: 3,
   },
 
   /* ── action buttons ── */
