@@ -44,14 +44,8 @@ function withAlpha(hex: string, alpha: number): string {
   return `${hex}${aa}`; // #RRGGBBAA
 }
 
-function sameBrandAltColor(brand: string, primary: string): string {
-  const upper = brand.toUpperCase();
-  // Same-brand comparisons need a distinctly different color for clarity.
-  // We keep it \"on brand\" where it reads well, otherwise fall back to the legacy B color.
-  if (upper.includes('NVIDIA')) return '#3E7A00'; // darker NVIDIA green
-  if (upper.includes('AMD')) return '#B00020'; // deeper red shade
-  if (upper.includes('INTEL')) return '#004A8C'; // deeper Intel blue
-  // Fallback: use previous B color so A/B are always distinct on this screen
+function sameBrandAltColor(): string {
+  // Same-brand comparisons: force a totally different color for Bar B (classic contrast).
   return colors.accent.orange;
 }
 
@@ -294,8 +288,8 @@ export function ComparisonScreen() {
             const aColor = getBrandColor(partA.brand);
             const sameBrand = partA.brand === partB.brand;
             // If both are the same brand, force a clearly different shade/color on THIS screen only
-            const bColor = sameBrand ? sameBrandAltColor(partB.brand, aColor) : getBrandColor(partB.brand);
-            const bOutline = sameBrand ? withAlpha(aColor, 0.9) : 'transparent';
+            const bColor = sameBrand ? sameBrandAltColor() : getBrandColor(partB.brand);
+            const bOutline = 'transparent';
 
             return (
               <View key={bm.label} style={styles.bmGroup}>
